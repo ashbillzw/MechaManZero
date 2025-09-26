@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/Characters/Mecha/ABP_Mecha.uasset",
+				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/Weapon/BP_Bullet.uasset",
+				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/Weapon/NS_bullet.uasset"
+			]
+		}
+	]
+}
