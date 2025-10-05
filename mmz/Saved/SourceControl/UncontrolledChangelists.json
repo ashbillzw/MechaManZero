@@ -8,7 +8,12 @@
 				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/Characters/Mecha/ABP_Mecha.uasset",
 				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/Weapon/BP_Bullet.uasset",
-				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/Weapon/NS_bullet.uasset"
+				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/Weapon/NS_bullet.uasset",
+				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/Input/IMC_Default.uasset",
+				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/UI/WBP_HUD.uasset",
+				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/FirstPerson/Blueprints/BPC_Energy.uasset",
+				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/Input/Actions/IA_Run.uasset",
+				"C:/Users/Benny/Documents/GitHub/MechaManZero/mmz/Content/Input/Actions/IA_Crouch.uasset"
 			]
 		}
 	]
