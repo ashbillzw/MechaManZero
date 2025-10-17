@@ -2378,3 +2378,7 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.17-02.07.28:836][733]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.10.17-02.07.28:836][733]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7255.842285, Update Interval: 334.128235
 [2025.10.17-02.08.35:182][933]LogDerivedDataCache: C:/Users/Benny/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.034 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2705 files in 3519 folders with total size 34 MiB.
+[2025.10.17-02.12.14:743][302]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.10.17-02.12.14:743][302]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.10.17-02.12.14:748][302]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_345A603CBCCE149902_1725531583
+[2025.10.17-02.12.14:748][302]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_345A603CBCCE149902_1725531583
