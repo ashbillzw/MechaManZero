@@ -1,0 +1,2314 @@
+#line 1 "DumpShaderDefinesAsCommentedCode"
+// #define __SHADER_TARGET_MAJOR 6
+// #define __SHADER_TARGET_MINOR 6
+// #define ALLOW_STATIC_LIGHTING 0
+// #define AMPLIFICATIONSHADER 0
+// #define CLEAR_COAT_BOTTOM_NORMAL 0
+// #define COLORED_LIGHT_FUNCTION_ATLAS 0
+// #define COMPILE_SHADERS_FOR_DEVELOPMENT 1
+// #define COMPILER_DEFINE #define
+// #define COMPILER_DXC 1
+// #define COMPILER_FXC 0
+// #define COMPILER_HLSL 1
+// #define COMPILER_SUPPORTS_BARYCENTRIC_INTRINSICS 0
+// #define COMPILER_SUPPORTS_NOINLINE 1
+// #define COMPUTESHADER 1
+// #define DISKELMESH_ADJ_INDEX_FORMAT 0
+// #define DISKELMESH_ALLOW_16BIT 1
+// #define DISKELMESH_ALLOW_DEFORMED 1
+// #define DISKELMESH_BONE_INFLUENCES 2
+// #define DISKELMESH_PROBALIAS_FORMAT 0
+// #define DO_CHECK 1
+// #define DO_GUARD_SLOW 0
+// #define DXT5_NORMALMAPS 0
+// #define EARLY_Z_PASS_ONLY_MATERIAL_MASKING 0
+// #define ES3_1_PROFILE 0
+// #define FORWARD_SHADING 0
+// #define FORWARD_SHADING_FORCES_SKYLIGHT_CUBEMAPS_BLENDING 0
+// #define GBUFFER_HAS_DIFFUSE_SAMPLE_OCCLUSION 0
+// #define GBUFFER_HAS_VELOCITY 0
+// #define GBUFFER_REFACTOR 1
+// #define GEOMETRYSHADER 0
+// #define GPU_SIMULATION 1
+// #define GPU_SIMULATION_SHADER 1
+// #define HAS_FIRST_PERSON_GBUFFER_BIT 1
+// #define HAS_INVERTED_Z_BUFFER 1
+// #define INSTANCED_STEREO 0
+// #define IRIS_NORMAL 0
+// #define LEGACY_MATERIAL_ENERGYCONSERVATION 0
+// #define MATERIAL_ROUGHDIFFUSE 0
+// #define MESHSHADER 0
+// #define MOBILE_MULTI_VIEW 0
+// #define MULTI_VIEW 0
+// #define NIAGARA_COMPRESSED_ATTRIBUTES_ENABLED 0
+// #define NIAGARA_DISPATCH_INDIRECT 0
+// #define NIAGARA_DISPATCH_TYPE 0
+// #define NIAGARA_MAX_GPU_SPAWN_INFOS 8
+// #define PIXELSHADER 0
+// #define PLATFORM_ALLOW_SCENE_DATA_COMPRESSED_TRANSFORMS 1
+// #define PLATFORM_MAX_SAMPLERS 32
+// #define PLATFORM_SUPPORTS_BARYCENTRICS_SEMANTIC 1
+// #define PLATFORM_SUPPORTS_BINDLESS 0
+// #define PLATFORM_SUPPORTS_BUFFER_LOAD_TYPE_CONVERSION 1
+// #define PLATFORM_SUPPORTS_CALLABLE_SHADERS 1
+// #define PLATFORM_SUPPORTS_CLIP_DISTANCE 1
+// #define PLATFORM_SUPPORTS_DIAGNOSTIC_BUFFER 1
+// #define PLATFORM_SUPPORTS_DISTANCE_FIELDS 1
+// #define PLATFORM_SUPPORTS_INLINE_RAY_TRACING 0
+// #define PLATFORM_SUPPORTS_MESH_SHADERS_TIER0 1
+// #define PLATFORM_SUPPORTS_MESH_SHADERS_TIER1 1
+// #define PLATFORM_SUPPORTS_PER_PIXEL_DBUFFER_MASK 0
+// #define PLATFORM_SUPPORTS_REAL_TYPES 0
+// #define PLATFORM_SUPPORTS_RENDERTARGET_WRITE_MASK 0
+// #define PLATFORM_SUPPORTS_ROV 1
+// #define PLATFORM_SUPPORTS_SHADER_BUNDLE_DISPATCH 0
+// #define PLATFORM_SUPPORTS_SHADER_ROOT_CONSTANTS 1
+// #define PLATFORM_SUPPORTS_SM6_0_WAVE_OPERATIONS 1
+// #define PLATFORM_SUPPORTS_STATIC_SAMPLERS 1
+// #define PLATFORM_SUPPORTS_UNIFORM_BUFFER_OBJECTS 0
+// #define PLATFORM_SUPPORTS_VERTEX_SHADER_SRVS 1
+// #define PLATFORM_SUPPORTS_VERTEX_SHADER_UAVS 1
+// #define PRIMITIVE_HAS_TILEOFFSET_DATA 1
+// #define PROJECT_ALLOW_GLOBAL_CLIP_PLANE 0
+// #define PROJECT_EXPFOG_MATCHES_VFOG 0
+// #define PROJECT_LOCALFOGVOLUME_APPLYONTRANSLUCENT 0
+// #define PROJECT_MOBILE_DISABLE_VERTEX_FOG 1
+// #define PROJECT_OIT 0
+// #define PROJECT_SUBSTRATE_BACKCOMPATIBILITY 0
+// #define PROJECT_SUPPORT_SKY_ATMOSPHERE 1
+// #define PROJECT_SUPPORT_SKY_ATMOSPHERE_AFFECTS_HEIGHFOG 1
+// #define PROJECT_SUPPORTS_LOCALFOGVOLUME 1
+// #define PROJECT_SUPPORTS_LUMEN 1
+// #define PROJECT_VERTEX_FOGGING_FOR_OPAQUE 0
+// #define RAYCALLABLESHADER 0
+// #define RAYGENSHADER 0
+// #define RAYHITGROUPSHADER 0
+// #define RAYMISSSHADER 0
+// #define SELECTIVE_BASEPASS_OUTPUTS 0
+// #define SHADING_PATH_DEFERRED 1
+// #define SimulateMain SimulateMain
+// #define SimulationStageIndex 0
+// #define SM5_PROFILE 0
+// #define SM6_PROFILE 1
+// #define SUBSTRATE_ADVANCED_DEBUG_ENABLED 0
+// #define SUBSTRATE_ENABLED 0
+// #define SUBSTRATE_MATERIAL_CLOSURE_COUNT 0
+// #define SUBSTRATE_OPAQUE_ROUGH_REFRACTION_ENABLED 0
+// #define SUBSTRATE_STOCHASTIC_LIGHTING_ENABLED 0
+// #define SUBSTRATE_TOP_LAYER_TYPE uint
+// #define SUBTRATE_GBUFFER_FORMAT 0
+// #define SUPPORT_CLOUD_SHADOW_ON_FORWARD_LIT_TRANSLUCENT 0
+// #define SUPPORT_CLOUD_SHADOW_ON_SINGLE_LAYER_WATER 0
+// #define SUPPORT_IESPROFILE_ON_FORWARD_LIT_TRANSLUCENT 0
+// #define SUPPORT_PRIMITIVE_ALPHA_HOLDOUT 0
+// #define SUPPORT_RECTLIGHT_ON_FORWARD_LIT_TRANSLUCENT 0
+// #define SUPPORT_SHADOWED_LOCAL_LIGHT_ON_FORWARD_LIT_TRANSLUCENT 0
+// #define SUPPORT_VSM_FOWARD_QUALITY 0
+// #define SUPPORTS_INDEPENDENT_SAMPLERS 1
+// #define THREADGROUP_SIZE 64
+// #define THREADGROUP_SIZE_X 64
+// #define THREADGROUP_SIZE_Y 1
+// #define THREADGROUP_SIZE_Z 1
+// #define UE_LEGACY_LUMINANCE_FACTORS 0
+// #define UE_LWC_RENDER_TILE_SIZE 2097152.00f
+// #define UE_LWC_RENDER_TILE_SIZE_FMOD_2PI 0.673652053f
+// #define UE_LWC_RENDER_TILE_SIZE_FMOD_PI 0.673652053f
+// #define UE_LWC_RENDER_TILE_SIZE_RCP 4.76837158e-07f
+// #define UE_LWC_RENDER_TILE_SIZE_RSQRT 0.000690533954f
+// #define UE_LWC_RENDER_TILE_SIZE_SQRT 1448.15466f
+// #define USE_DBUFFER 1
+// #define USE_HAIR_TRIANGLE_STRIP 1
+// #define USE_WAVE_INTRINSICS 0
+// #define USES_BASE_PASS_VELOCITY 0
+// #define USING_VERTEX_SHADER_LAYER 0
+// #define VELOCITY_ENCODE_DEPTH 1
+// #define VERTEXSHADER 0
+// #define VIEW_HAS_TILEOFFSET_DATA 1
+// #define VIRTUAL_TEXTURE_ANISOTROPIC_FILTERING 0
+// #define WORKGRAPHCOMPUTESHADER 0
+// #define WORKGRAPHROOTSHADER 0
+// #define WORKING_COLOR_SPACE_IS_SRGB 1
+#line 6 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+#pragma warning(disable:4008)
+
+#line 51 "/Engine/Private/RandomPCG.ush"
+uint3 Rand3DPCG32(int3 p)
+{
+
+	uint3 v = uint3(p);
+
+
+	v = v * 1664525u + 1013904223u;
+
+
+	v.x += v.y*v.z;
+	v.y += v.z*v.x;
+	v.z += v.x*v.y;
+
+
+	v ^= v >> 16u;
+
+
+	v.x += v.y*v.z;
+	v.y += v.z*v.x;
+	v.z += v.x*v.y;
+
+	return v;
+}
+
+#line 33 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 ModuloPrecise(float4 x, float4 y){ return x - y * trunc(x/y); }
+float3 ModuloPrecise(float3 x, float3 y){ return x - y * trunc(x/y); }
+float2 ModuloPrecise(float2 x, float2 y){ return x - y * trunc(x/y);}
+float ModuloPrecise(float x, float y){ return x - y * trunc(x/y); }
+int ModuloPrecise(int x, int y){ return x - y * (x/y); }
+int Modulo(int x, int y){  return x - y * (x/y);  }
+
+#line 42 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 Reciprocal(float4 x){ return 1.0f/x;}
+float3 Reciprocal(float3 x){ return 1.0f/x; }
+float2 Reciprocal(float2 x){ return 1.0f/x;}
+float Reciprocal(float x){ return 1.0f/x; }
+
+#line 49 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+bool NiagaraAll(bool b) { return b; }
+bool NiagaraAny(bool b) { return b; }
+
+#line 52 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+bool NiagaraAll(bool2 b) { return all(b); }
+bool NiagaraAll(bool3 b) { return all(b); }
+bool NiagaraAll(bool4 b) { return all(b); }
+bool NiagaraAny(bool2 b) { return any(b); }
+bool NiagaraAny(bool3 b) { return any(b); }
+bool NiagaraAny(bool4 b) { return any(b); }
+
+#line 94 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+uint3 DispatchThreadIdToLinear;
+
+#line 97 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static uint3 GDispatchThreadId;
+static uint3 GGroupId;
+static uint3 GGroupThreadId;
+static uint  GGroupIndex;
+static uint GLinearThreadId;
+static uint GEmitterTickCounter;
+static uint GRandomSeedOffset = 0;
+
+#line 112 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+uint EmitterTickCounter;
+
+#line 114 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 Modulo(float4 x, float4 y){ return fmod(x,y); }
+float3 Modulo(float3 x, float3 y){ return fmod(x,y); }
+float2 Modulo(float2 x, float2 y){ return fmod(x,y); }
+float Modulo(float x, float y){ return fmod(x,y); }
+
+#line 132 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float NiagaraInternalNoise(uint u, uint v, uint s)
+	{
+		uint Seed = (u * 1664525u + v) + s + GRandomSeedOffset;
+		GRandomSeedOffset += Seed;
+		return float(Rand3DPCG32(int3(u,v,Seed)).x) / 4294967296.0f;
+	}
+
+#line 142 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int4	EmitterSpawnInfoOffsets[((8 + 3) / 4)];
+float4	EmitterSpawnInfoParams[8];
+
+#line 146 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static float Emitter_SpawnInterval;
+static float Emitter_InterpSpawnStartDt;
+static int Emitter_SpawnGroup;
+
+#line 150 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static int Engine_ExecutionCount;
+static int GGPUExecIndex;
+
+#line 153 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static uint GSpawnStartInstance;
+uint NumSpawnedInstances;
+
+#line 156 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void SetupExecIndexForGPU()
+	{
+		GGPUExecIndex = GLinearThreadId;
+		Engine_ExecutionCount = GSpawnStartInstance;
+	}
+
+#line 162 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void SetupExecIndexAndSpawnInfoForGPU()
+	{
+		GGPUExecIndex = GLinearThreadId - GSpawnStartInstance;
+
+		int SpawnInfoIndex = 0;
+		[unroll]
+		for (int i = 0; i < ((8 + 3) / 4); ++i)
+		{
+
+
+			int4 CompareResults = GGPUExecIndex >= EmitterSpawnInfoOffsets[i];
+			CompareResults = CompareResults & int4(1, 1, 1, 1);
+			SpawnInfoIndex += CompareResults.x + CompareResults.y + CompareResults.z + CompareResults.w;
+		}
+
+		Emitter_SpawnInterval		= EmitterSpawnInfoParams[SpawnInfoIndex].x;
+		Emitter_InterpSpawnStartDt	= EmitterSpawnInfoParams[SpawnInfoIndex].y;
+		Emitter_SpawnGroup			= asint(EmitterSpawnInfoParams[SpawnInfoIndex].z);
+
+		int GroupSpawnStartIndex    = asint(EmitterSpawnInfoParams[SpawnInfoIndex].w);
+		GGPUExecIndex		        = GGPUExecIndex - GroupSpawnStartIndex;
+		if ( SpawnInfoIndex == (8 - 1) )
+		{
+			Engine_ExecutionCount   = int(NumSpawnedInstances) - GroupSpawnStartIndex;
+		}
+		else
+		{
+			int NextGroupSpawnStartIndex = asint(EmitterSpawnInfoParams[SpawnInfoIndex + 1].w);
+			Engine_ExecutionCount       = NextGroupSpawnStartIndex - GroupSpawnStartIndex;
+		}
+	}
+
+#line 196 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int ExecIndex()
+	{
+		return GGPUExecIndex;
+	}
+
+#line 201 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 NiagaraGPU_QuatMul(float4 Q1, float4 Q2)
+	{
+		float4 QOut;
+		QOut.x = Q1.w*Q2.x + Q1.x*Q2.w + Q1.y*Q2.z - Q1.z*Q2.y;
+		QOut.y = Q1.w*Q2.y - Q1.x*Q2.z + Q1.y*Q2.w + Q1.z*Q2.x;
+		QOut.z = Q1.w*Q2.z + Q1.x*Q2.y - Q1.y*Q2.x + Q1.z*Q2.w;
+		QOut.w = Q1.w*Q2.w - Q1.x*Q2.x - Q1.y*Q2.y - Q1.z*Q2.z;
+		return QOut;
+	}
+
+#line 233 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 rand4(int Seed1, int Seed2, int Seed3, int Seed4)
+{
+	int4 v = int4(Seed4, Seed1, Seed2, Seed3) * 1664525 + 1013904223;
+
+	v.x += v.y*v.w;
+	v.y += v.z*v.x;
+	v.z += v.x*v.y;
+	v.w += v.y*v.z;
+	v.x += v.y*v.w;
+	v.y += v.z*v.x;
+	v.z += v.x*v.y;
+	v.w += v.y*v.z;
+
+
+
+
+
+
+	return float4((v >> 8) & 0x00ffffff) / 16777216.0; 
+
+}
+
+#line 261 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float3 rand3(int Seed1, int Seed2, int Seed3, int Seed4)
+{
+	int3 v = int3(Seed1, Seed2, Seed4 | (Seed3 << 16)) * 1664525 + 1013904223;
+
+	v.x += v.y*v.z;
+	v.y += v.z*v.x;
+	v.z += v.x*v.y;
+	v.x += v.y*v.z;
+	v.y += v.z*v.x;
+	v.z += v.x*v.y;
+
+	return float3((v >> 8) & 0x00ffffff) / 16777216.0; 
+}
+
+#line 276 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static int RandomCounterDeterministic = 0;
+
+#line 279 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float rand(float x, int Seed1, int Seed2, int Seed3)
+{
+	RandomCounterDeterministic += 1;
+	return rand3(Seed1, Seed2, Seed3, RandomCounterDeterministic).x * x;
+}
+
+#line 286 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float2 rand(float2 x, int Seed1, int Seed2, int Seed3)
+{
+	RandomCounterDeterministic += 1;
+	return rand3(Seed1, Seed2, Seed3, RandomCounterDeterministic).xy * x;
+}
+
+#line 293 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float3 rand(float3 x, int Seed1, int Seed2, int Seed3)
+{
+	RandomCounterDeterministic += 1;
+	return rand3(Seed1, Seed2, Seed3, RandomCounterDeterministic).xyz * x;
+}
+
+#line 300 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 rand(float4 x, int Seed1, int Seed2, int Seed3) 
+{
+	RandomCounterDeterministic += 1;
+	return rand4(Seed1, Seed2, Seed3, RandomCounterDeterministic).xyzw * x;
+}
+
+#line 307 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int rand(int x, int Seed1, int Seed2, int Seed3)
+{
+
+
+	RandomCounterDeterministic += 1;
+	return int(rand3(Seed1, Seed2, Seed3, RandomCounterDeterministic).x * (x+1));
+}
+
+#line 328 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static int RandomCounterNonDeterministic = -1;
+
+#line 330 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float rand(float x)
+	{
+		RandomCounterNonDeterministic -= 1;
+		return rand4(GLinearThreadId, EmitterTickCounter, GLinearThreadId, RandomCounterNonDeterministic).x * x;
+	}
+
+#line 336 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float2 rand(float2 x)
+	{
+		RandomCounterNonDeterministic -= 1;
+		return rand4(GLinearThreadId, EmitterTickCounter, GLinearThreadId, RandomCounterNonDeterministic).xy * x;
+	}
+
+#line 342 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float3 rand(float3 x)
+	{
+		RandomCounterNonDeterministic -= 1;
+		return rand4(GLinearThreadId, EmitterTickCounter, GLinearThreadId, RandomCounterNonDeterministic).xyz * x;
+	}
+
+#line 348 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 rand(float4 x) 
+	{
+		RandomCounterNonDeterministic -= 1;
+		return rand4(GLinearThreadId, EmitterTickCounter, GLinearThreadId, RandomCounterNonDeterministic).xyzw * x;
+	}
+
+#line 355 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int rand(int x)
+	{
+		RandomCounterNonDeterministic -= 1;
+		return int(rand4(GLinearThreadId, EmitterTickCounter, GLinearThreadId, RandomCounterNonDeterministic).x * (x+1));
+	}
+
+#line 412 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float rand_float(float x)
+{
+	return rand(x.x);
+}
+
+#line 417 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float2 rand_float(float2 x)
+{
+	return float2(rand_float(x.x), rand_float(x.y));
+}
+
+#line 422 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float3 rand_float(float3 x)
+{
+	return float3(rand_float(x.x), rand_float(x.y), rand_float(x.z));
+}
+
+#line 427 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 rand_float(float4 x) 
+{
+	return float4(rand_float(x.x), rand_float(x.y), rand_float(x.z), rand_float(x.w));
+}
+
+#line 441 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float rand_float(float x, int Seed1, int Seed2, int Seed3)
+{
+	return rand(x.x, Seed1, Seed2, Seed3);
+}
+
+#line 446 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float2 rand_float(float2 x, int Seed1, int Seed2, int Seed3)
+{
+	return rand(x, Seed1, Seed2, Seed3);
+}
+
+#line 451 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float3 rand_float(float3 x, int Seed1, int Seed2, int Seed3)
+{
+	return rand(x, Seed1, Seed2, Seed3);
+}
+
+#line 456 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 rand_float(float4 x, int Seed1, int Seed2, int Seed3) 
+{
+	return rand(x, Seed1, Seed2, Seed3);
+}
+
+#line 469 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 NiagaraQuatSLerp(float4 Quat1, float4 Quat2, float Slerp)
+{
+	const float RawCosom = dot(Quat1, Quat2);
+	const float Cosom = abs(RawCosom);
+
+	float Scale0, Scale1;
+	if (Cosom < 0.9999f)
+	{
+		const float Omega = acos(Cosom);
+		const float InvSin = 1.f / sin(Omega);
+		Scale0 = sin((1.f - Slerp) * Omega) * InvSin;
+		Scale1 = sin(Slerp * Omega) * InvSin;
+	}
+	else
+	{
+		Scale0 = 1.0f - Slerp;
+		Scale1 = Slerp;
+	}
+
+	Scale1 = RawCosom >= 0.0f ? Scale1 : -Scale1;
+
+	return (Scale0 * Quat1) + (Scale1 * Quat2);
+}
+
+#line 542 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+uint ComponentBufferSizeRead;
+uint ComponentBufferSizeWrite;
+
+#line 549 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+Buffer<float> InputFloat;
+Buffer<int> InputInt;
+
+#line 553 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+RWBuffer<int> RWOutputInt;
+RWBuffer<float> RWOutputFloat;
+
+#line 559 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+RWBuffer<uint> RWInstanceCounts;
+uint ReadInstanceCountOffset;
+uint WriteInstanceCountOffset;
+
+#line 563 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+Buffer<int> FreeIDList;
+RWBuffer<int> RWIDToIndexTable;
+
+#line 589 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void AcquireID(int DataSetID, out int IDIndex, out int IDAcquireTag)
+	{
+
+		int MustBe0[1];
+		MustBe0[DataSetID] = 0;
+
+
+
+
+		int SpawnIndex = GLinearThreadId - GSpawnStartInstance;
+		IDIndex = FreeIDList[SpawnIndex];
+		IDAcquireTag = EmitterTickCounter;
+	}
+
+#line 603 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void UpdateID(int DataSetID, int IDIndex, int InstanceIndex)
+	{
+
+		int MustBe0[1];
+		MustBe0[DataSetID] = 0;
+
+
+		RWIDToIndexTable[IDIndex] = InstanceIndex;
+	}
+
+#line 617 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+groupshared uint GroupSharedIndex[64];
+groupshared uint GroupSharedIndex4[16];
+groupshared uint GroupSharedIndex16[4];
+groupshared uint GroupSharedIndex64;
+
+#line 632 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int AcquireIndex(uniform int DataSetID, bool bDoAcquire)
+	{
+
+		int MustBe0[1];
+		MustBe0[DataSetID] = 0;
+
+
+		int PrevIdx = GSpawnStartInstance + NumSpawnedInstances;	
+
+#line 661 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+
+
+			GroupSharedIndex[GGroupThreadId.x] = bDoAcquire ? 1 : 0;
+			GroupMemoryBarrierWithGroupSync(); 
+
+
+			if ((GGroupThreadId.x & 0x3) == 0)
+			{
+				const uint Index = GGroupThreadId.x;
+
+				const uint ActiveCount1 = GroupSharedIndex[Index];
+				const uint ActiveCount2 = ActiveCount1 + GroupSharedIndex[Index + 1];
+				const uint ActiveCount3 = ActiveCount2 + GroupSharedIndex[Index + 2];
+				const uint ActiveCount4 = ActiveCount3 + GroupSharedIndex[Index + 3];
+
+				GroupSharedIndex[Index] = 0;
+				GroupSharedIndex[Index + 1] = ActiveCount1;
+				GroupSharedIndex[Index + 2] = ActiveCount2;
+				GroupSharedIndex[Index + 3] = ActiveCount3;
+				GroupSharedIndex4[Index / 4] = ActiveCount4;
+			}
+			GroupMemoryBarrierWithGroupSync(); 
+
+
+			if ((GGroupThreadId.x & 0xF) == 0)
+			{
+				const uint Index = GGroupThreadId.x / 4;
+
+				const uint ActiveCount1 = GroupSharedIndex4[Index];
+				const uint ActiveCount2 = ActiveCount1 + GroupSharedIndex4[Index + 1];
+				const uint ActiveCount3 = ActiveCount2 + GroupSharedIndex4[Index + 2];
+				const uint ActiveCount4 = ActiveCount3 + GroupSharedIndex4[Index + 3];
+
+				GroupSharedIndex4[Index] = 0;
+				GroupSharedIndex4[Index + 1] = ActiveCount1;
+				GroupSharedIndex4[Index + 2] = ActiveCount2;
+				GroupSharedIndex4[Index + 3] = ActiveCount3;
+				GroupSharedIndex16[Index / 4] = ActiveCount4;
+			}
+			GroupMemoryBarrierWithGroupSync(); 
+
+
+			if ((GGroupThreadId.x & 0x3F) == 0)
+			{
+				const uint Index = GGroupThreadId.x / 16;
+				uint RetPrevIdx = 0;
+
+				const uint ActiveCount1 = GroupSharedIndex16[Index];
+				const uint ActiveCount2 = ActiveCount1 + GroupSharedIndex16[Index + 1];
+
+				const uint ActiveCount3 = ActiveCount2 + GroupSharedIndex16[Index + 2];
+				const uint ActiveCount4 = ActiveCount3 + GroupSharedIndex16[Index + 3];
+
+
+				GroupSharedIndex16[Index] = 0;
+				GroupSharedIndex16[Index + 1] = ActiveCount1;
+
+				GroupSharedIndex16[Index + 2] = ActiveCount2;
+				GroupSharedIndex16[Index + 3] = ActiveCount3;
+
+				InterlockedAdd(RWInstanceCounts[WriteInstanceCountOffset], ActiveCount4, RetPrevIdx);
+
+
+
+				GroupSharedIndex64 = RetPrevIdx;
+			}
+			GroupMemoryBarrierWithGroupSync(); 
+
+			PrevIdx = GroupSharedIndex64 + GroupSharedIndex16[GGroupThreadId.x / 16] + GroupSharedIndex4[GGroupThreadId.x / 4] + GroupSharedIndex[GGroupThreadId.x];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		return PrevIdx;
+	}
+
+#line 751 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float InputDataFloat(int DataSetIndex, int RegisterIdx, int InstanceIdx)
+	{
+
+
+
+			return InputFloat[RegisterIdx*ComponentBufferSizeRead + InstanceIdx];
+
+	}
+
+#line 760 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int InputDataInt(int DataSetIndex, int RegisterIdx, int InstanceIdx)
+	{
+
+
+
+			return InputInt[RegisterIdx*ComponentBufferSizeRead + InstanceIdx];
+
+	}
+
+#line 791 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void OutputDataFloat(int DataSetIndex, int RegisterIndex, int InstanceIndex, float Value)
+	{
+		RWOutputFloat[RegisterIndex*ComponentBufferSizeWrite + InstanceIndex] = Value;
+	}
+
+#line 796 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void OutputDataInt(int DataSetIndex, int RegisterIndex, int InstanceIndex, int Value)
+	{
+		RWOutputInt[RegisterIndex*ComponentBufferSizeWrite + InstanceIndex] = Value;
+	}
+
+#line 811 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void EnterStatScope(int ID)	{}
+void ExitStatScope()	{}
+
+#line 818 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int OutputIndex(const int DataSetID, const bool bStageKillsParticles, const bool bIsValid)
+	{
+
+
+
+
+
+
+		if (!bStageKillsParticles)
+		{
+			return GLinearThreadId;
+		}
+
+
+		return AcquireIndex(DataSetID, bIsValid);
+	}
+
+#line 23 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct NiagaraID
+{
+	int Index;
+	int AcquireTag;
+};
+
+#line 29 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct MeshTriCoordinate
+{
+	int Tri;
+	float3 BaryCoord;
+};
+
+#line 35 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct NiagaraEmitterID
+{
+	int ID;
+};
+
+#line 40 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Engine_WorldDeltaTime;
+float Engine_DeltaTime;
+float Engine_InverseDeltaTime;
+float Engine_Time;
+float Engine_RealTime;
+
+#line 51 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float PREV_Engine_Time;
+float PREV_Engine_RealTime;
+
+#line 56 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Engine_Owner_TimeSinceRendered;
+float Engine_Owner_LODDistance;
+float Engine_Owner_LODDistanceFraction;
+float Engine_System_Age;
+
+#line 65 "/Engine/Generated/NiagaraEmitterInstance.ush"
+int Engine_System_RandomSeed;
+
+#line 72 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float PREV_Engine_Owner_TimeSinceRendered;
+float PREV_Engine_Owner_LODDistance;
+float PREV_Engine_Owner_LODDistanceFraction;
+float PREV_Engine_System_Age;
+
+#line 88 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float4x4 Engine_Owner_SystemLocalToWorld;
+float4x4 Engine_Owner_SystemWorldToLocal;
+
+#line 92 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float4x4 Engine_Owner_SystemLocalToWorldNoScale;
+float4x4 Engine_Owner_SystemWorldToLocalNoScale;
+float4 Engine_Owner_Rotation;
+float3 Engine_Owner_Position;
+
+#line 97 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 Engine_Owner_Velocity;
+
+#line 99 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 Engine_Owner_SystemXAxis;
+
+#line 101 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 Engine_Owner_SystemYAxis;
+
+#line 103 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 Engine_Owner_SystemZAxis;
+
+#line 105 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 Engine_Owner_Scale;
+
+#line 107 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float4 Engine_Owner_LWCTile;
+
+#line 114 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float4 PREV_Engine_Owner_Rotation;
+float3 PREV_Engine_Owner_Position;
+
+#line 117 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 PREV_Engine_Owner_Velocity;
+
+#line 119 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 PREV_Engine_Owner_SystemXAxis;
+
+#line 121 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 PREV_Engine_Owner_SystemYAxis;
+
+#line 123 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 PREV_Engine_Owner_SystemZAxis;
+
+#line 125 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 PREV_Engine_Owner_Scale;
+
+#line 127 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float4 PREV_Engine_Owner_LWCTile;
+
+#line 129 "/Engine/Generated/NiagaraEmitterInstance.ush"
+int Engine_Emitter_TotalSpawnedParticles;
+
+#line 131 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Emitter_Age;
+int Emitter_RandomSeed;
+int Engine_Emitter_InstanceSeed;
+
+#line 139 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float PREV_Emitter_Age;
+
+#line 144 "/Engine/Generated/NiagaraEmitterInstance.ush"
+cbuffer FNiagaraExternalParameters
+{
+	float4 Constants_Emitter_InitializeParticle_Color;
+	float3 Constants_Emitter_SampleSkeletalMesh_SampledPositionOffset;
+	float Emitter_SpawnRate;
+	float3 Constants_Emitter_SampleSkeletalMesh_SampledOrientationAdditionalYawASC47PitchASC47Roll;
+	float Constants_Emitter_GenerateLocationEvent_DelayBeforeSendingEvents;
+	float3 Constants_Emitter_SolveForcesAndVelocity_PreviousVelocity;
+	float Constants_Emitter_GenerateLocationEvent_EventProbability;
+	float3 Constants_Emitter_InitializeParticle_PositionOffset;
+	float Constants_Emitter_GenerateLocationEvent_EventSendRate;
+	float Constants_Emitter_InitializeParticle_Lifetime;
+	float Constants_Emitter_InitializeParticle_UniformSpriteSize;
+	float Emitter_DistanceTraveled;
+	float Constants_Emitter_SolveForcesAndVelocity_SpeedLimit;
+	float Constants_Emitter_SolveForcesAndVelocity_AccelerationLimit;
+	int Emitter_ExecutionState;
+	int System_ExecutionState;
+}
+
+#line 164 "/Engine/Generated/NiagaraEmitterInstance.ush"
+cbuffer PREV_FNiagaraExternalParameters
+{
+	float4 PREV_Constants_Emitter_InitializeParticle_Color;
+	float3 PREV_Constants_Emitter_SampleSkeletalMesh_SampledPositionOffset;
+	float PREV_Emitter_SpawnRate;
+	float3 PREV_Constants_Emitter_SampleSkeletalMesh_SampledOrientationAdditionalYawASC47PitchASC47Roll;
+	float PREV_Constants_Emitter_GenerateLocationEvent_DelayBeforeSendingEvents;
+	float3 PREV_Constants_Emitter_SolveForcesAndVelocity_PreviousVelocity;
+	float PREV_Constants_Emitter_GenerateLocationEvent_EventProbability;
+	float3 PREV_Constants_Emitter_InitializeParticle_PositionOffset;
+	float PREV_Constants_Emitter_GenerateLocationEvent_EventSendRate;
+	float PREV_Constants_Emitter_InitializeParticle_Lifetime;
+	float PREV_Constants_Emitter_InitializeParticle_UniformSpriteSize;
+	float PREV_Emitter_DistanceTraveled;
+	float PREV_Constants_Emitter_SolveForcesAndVelocity_SpeedLimit;
+	float PREV_Constants_Emitter_SolveForcesAndVelocity_AccelerationLimit;
+	int PREV_Emitter_ExecutionState;
+	int PREV_System_ExecutionState;
+}
+
+#line 184 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FLocationEventDataSet
+{
+	float3 Vector1Position_29_53BB17B340F2F8CBDB00619E8ACA8A8F;
+	float3 Vector2Velocity_30_6147F7B84D206402EBDD6CAEC72CB864;
+	float3 Vector3Acceleration_31_1A2DB79F440455DC0602B5A462D5F37F;
+	NiagaraID NiagaraIDParticleID_37_5946869544681B0D2B8C48BAD6380BBC;
+	float Float1NormalizedAge_36_A3BB598447BD630CE9BE078C0CB3DCAC;
+	float Float2RandomNormalizedFloat_33_2CCDADFB4F6411E0CA2698A4EB43EB80;
+	float Float3DistanceTraveled_34_782CD1B14231731F4BDF6C972AA68747;
+	float4 LinearColorParticleColor_40_C9EA94794B2C8C8FCF8ABF80675AF2A6;
+	bool BooleanLocalSpace_46_A5DC22A74C34467D28031D80D664D64E;
+};
+
+#line 196 "/Engine/Generated/NiagaraEmitterInstance.ush"
+RWBuffer<float> RWWriteDataSetFloat1;
+RWBuffer<int> RWWriteDataSetInt1;
+int DSComponentBufferSizeWriteFloat1;
+int DSComponentBufferSizeWriteInt1;
+struct FParamMap0_Transient
+{
+	float3 AdvectionVelocity;
+	bool DragIgnoreMass;
+	bool FirstFrame;
+	float3 PhysicsAcceleration;
+	float PhysicsDeltaTime;
+	float PhysicsDrag;
+	float3 PhysicsForce;
+	int testtestExecIndex;
+};
+
+#line 212 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_System
+{
+	int ExecutionState;
+};
+
+#line 217 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_SolveForcesAndVelocity
+{
+	float DeltaTime;
+	float3 Force;
+	float Mass;
+	float3 Position;
+	float3 Velocity;
+	bool WritetoIntrinsicProperties;
+};
+
+#line 227 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_SetVariables_06B04E0C42CA9EDCCF16A083ED23BE70_Particles
+{
+	float3 Position;
+};
+
+#line 232 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_SetVariables_06B04E0C42CA9EDCCF16A083ED23BE70
+{
+	FParamMap0_SetVariables_06B04E0C42CA9EDCCF16A083ED23BE70_Particles Particles;
+};
+
+#line 237 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_SampleSkeletalMesh
+{
+	int BoneASC47SocketIndex;
+};
+
+#line 242 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_ParticleState
+{
+	float DeltaTime;
+	bool LetInfinitelyLivedParticlesDieWhenEmitterDeactivates;
+	float Lifetime;
+	bool LoopParticlesLifetime;
+};
+
+#line 250 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Particles_SampleSkeletalMesh
+{
+	float3 SampledPosition;
+	float3 SampledPositionWithoutOffset;
+	float4 SampledRotation;
+	float3 SampledVelocity;
+};
+
+#line 258 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Particles_Previous
+{
+	float3 Position;
+	float2 SpriteSize;
+	float3 Velocity;
+};
+
+#line 265 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Particles_Presolve
+{
+	float3 PhysicsForce;
+	float3 Position;
+	float3 Velocity;
+};
+
+#line 272 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Particles_GenerateLocationEvent
+{
+	float AccumulatedLocEventDT;
+};
+
+#line 277 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Particles
+{
+	float Age;
+	float4 Color;
+	float DistanceTraveled;
+	FParamMap0_Particles_GenerateLocationEvent GenerateLocationEvent;
+	NiagaraID ID;
+	float Lifetime;
+	float Mass;
+	float MaterialRandom;
+	float NormalizedAge;
+	float3 Position;
+	FParamMap0_Particles_Presolve Presolve;
+	FParamMap0_Particles_Previous Previous;
+	float RibbonUVDistance;
+	FParamMap0_Particles_SampleSkeletalMesh SampleSkeletalMesh;
+	float2 SpriteSize;
+	int UniqueID;
+	float3 Velocity;
+};
+
+#line 298 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_OUTPUT_VAR_SolveForcesAndVelocity
+{
+	float IncomingPhysicsDrag;
+	float3 IncomingPhysicsForce;
+	float3 Position;
+	float3 Velocity;
+};
+
+#line 306 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_OUTPUT_VAR_SampleSkeletalMesh
+{
+	int SampledBoneIndex;
+};
+
+#line 311 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_OUTPUT_VAR_ParticleState
+{
+	bool FirstFrame;
+};
+
+#line 316 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_OUTPUT_VAR_GenerateLocationEvent
+{
+	bool EventWasSentThisFrame;
+};
+
+#line 321 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_OUTPUT_VAR
+{
+	FParamMap0_OUTPUT_VAR_GenerateLocationEvent GenerateLocationEvent;
+	FParamMap0_OUTPUT_VAR_ParticleState ParticleState;
+	FParamMap0_OUTPUT_VAR_SampleSkeletalMesh SampleSkeletalMesh;
+	FParamMap0_OUTPUT_VAR_SolveForcesAndVelocity SolveForcesAndVelocity;
+};
+
+#line 329 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Local_SolveForcesAndVelocity
+{
+	float3 AdvectionVelocity;
+	float DeltaTime;
+	bool DragIgnoreMass;
+	float3 DragVelocity;
+	float InverseDeltaTime;
+	float InverseMass;
+	float Mass;
+	float PhysicsDrag;
+	float3 PhysicsForce;
+};
+
+#line 342 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Local_SampleSkeletalMesh
+{
+	float3 SampledBitangent;
+	int SampledBoneIndex;
+	MeshTriCoordinate SampledMeshTriCoord;
+	float2 SampledMeshUV;
+	int SampledMeshVertexID;
+	float3 SampledNormal;
+	float3 SampledPosition;
+	float4 SampledRotation;
+	float3 SampledTangent;
+	float3 SampledVelocity;
+	float4 SampledVertexColor;
+};
+
+#line 357 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Local_InitializeParticle
+{
+	float InitRIbbonDistance;
+};
+
+#line 362 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Local_GenerateLocationEvent
+{
+	bool EventCondition;
+};
+
+#line 367 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Local
+{
+	FParamMap0_Local_GenerateLocationEvent GenerateLocationEvent;
+	FParamMap0_Local_InitializeParticle InitializeParticle;
+	FParamMap0_Local_SampleSkeletalMesh SampleSkeletalMesh;
+	FParamMap0_Local_SolveForcesAndVelocity SolveForcesAndVelocity;
+};
+
+#line 375 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Interpolation
+{
+	float Emitter_InterpSpawnStartDt;
+	int Emitter_SpawnGroup;
+	float Emitter_SpawnInterval;
+	int InterpSpawn_Index;
+	float InterpSpawn_InvSpawnTime;
+	float InterpSpawn_InvUpdateTime;
+	float InterpSpawn_SpawnTime;
+	float InterpSpawn_UpdateTime;
+	float SpawnInterp;
+};
+
+#line 388 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_InitializeParticle
+{
+	float MaterialRandom;
+	int PositionOffsetCoordinateSpace;
+};
+
+#line 394 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_GenerateLocationEvent
+{
+	bool BooleantoSendasLocalspaceFlag;
+	float4 ColortoSendasLinearColorASC40ParticleColor;
+	float DelayAgeAttribute;
+	bool EventGenerationEnabled;
+	float FloattoSendasFloat1ASC40NormalizedAgeASC41;
+	float FloattoSendasFloat2ASC40RandomNormalizedFloatASC41;
+	float FloattoSendasFloat3ASC40DistanceTraveledASC41;
+	NiagaraID NiagaraIDtoSendasParticleIDASC40RibbonIDASC41;
+	float3 VectortoSendasVector1ASC40PositionASC41;
+	float3 VectortoSendasVector2ASC40VelocityASC41;
+	float3 VectortoSendasVector3ASC40AccelerationASC41;
+};
+
+#line 409 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Engine_System
+{
+	float Age;
+	int CurrentTimeStep;
+	int NumEmitters;
+	int NumEmittersAlive;
+	int NumParticles;
+	int NumTimeSteps;
+	int PaddingInt32_0;
+	int PaddingInt32_1;
+	int RandomSeed;
+	int SignificanceIndex;
+	int TickCount;
+	float TimeStepFraction;
+};
+
+#line 425 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Engine_Owner
+{
+	int ExecutionState;
+	float LODDistance;
+	float LODDistanceFraction;
+	float4 LWCTile;
+	int PaddingInt32_0;
+	int PaddingInt32_1;
+	int PaddingInt32_2;
+	int PaddingInt32_3;
+	int PaddingInt32_4;
+	int PaddingInt32_5;
+	float3 Position;
+	float4 Rotation;
+	float3 Scale;
+	float4x4 SystemLocalToWorld;
+	float4x4 SystemLocalToWorldNoScale;
+	float4x4 SystemLocalToWorldTransposed;
+	float4x4 SystemWorldToLocal;
+	float4x4 SystemWorldToLocalNoScale;
+	float4x4 SystemWorldToLocalTransposed;
+	float3 SystemXAxis;
+	float3 SystemYAxis;
+	float3 SystemZAxis;
+	float TimeSinceRendered;
+	float3 Velocity;
+};
+
+#line 453 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Engine_Emitter
+{
+	NiagaraEmitterID ID;
+	int InstanceSeed;
+	int NumParticles;
+	int PaddingInt32_0;
+	int PaddingInt32_1;
+	float SpawnCountScale;
+	int TotalSpawnedParticles;
+};
+
+#line 464 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Engine
+{
+	float DeltaTime;
+	FParamMap0_Engine_Emitter Emitter;
+	int ExecIndex;
+	int ExecutionCount;
+	float InverseDeltaTime;
+	FParamMap0_Engine_Owner Owner;
+	int PaddingInt32_0;
+	int PaddingInt32_1;
+	int QualityLevel;
+	float RealTime;
+	FParamMap0_Engine_System System;
+	float Time;
+	float WorldDeltaTime;
+};
+
+#line 481 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Emitter
+{
+	float Age;
+	float DistanceTraveled;
+	int ExecutionState;
+	int RandomSeed;
+	float SpawnRate;
+};
+
+#line 490 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_DataInstance
+{
+	bool Alive;
+};
+
+#line 495 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Array_SampleSkeletalMesh
+{
+	int SampledPosition;
+	int SampledPositionWithoutOffset;
+	int SampledRotation;
+	int SampledVelocity;
+};
+
+#line 503 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Array_Previous
+{
+	int Position;
+	int SpriteSize;
+	int Velocity;
+};
+
+#line 510 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Array_Presolve
+{
+	int PhysicsForce;
+	int Position;
+	int Velocity;
+};
+
+#line 517 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Array_GenerateLocationEvent
+{
+	int AccumulatedLocEventDT;
+};
+
+#line 522 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Array
+{
+	int Age;
+	int Color;
+	int DistanceTraveled;
+	FParamMap0_Array_GenerateLocationEvent GenerateLocationEvent;
+	int ID;
+	int Lifetime;
+	int Mass;
+	int MaterialRandom;
+	int NormalizedAge;
+	int Position;
+	FParamMap0_Array_Presolve Presolve;
+	FParamMap0_Array_Previous Previous;
+	int RibbonUVDistance;
+	FParamMap0_Array_SampleSkeletalMesh SampleSkeletalMesh;
+	int SpriteSize;
+	int UniqueID;
+	int Velocity;
+};
+
+#line 543 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0
+{
+	FParamMap0_Array Array;
+	FParamMap0_DataInstance DataInstance;
+	FParamMap0_Emitter Emitter;
+	FParamMap0_Engine Engine;
+	FParamMap0_GenerateLocationEvent GenerateLocationEvent;
+	FParamMap0_InitializeParticle InitializeParticle;
+	FParamMap0_Interpolation Interpolation;
+	FParamMap0_Local Local;
+	FParamMap0_OUTPUT_VAR OUTPUT_VAR;
+	FParamMap0_Particles Particles;
+	FParamMap0_ParticleState ParticleState;
+	FParamMap0_SampleSkeletalMesh SampleSkeletalMesh;
+	FParamMap0_SetVariables_06B04E0C42CA9EDCCF16A083ED23BE70 SetVariables_06B04E0C42CA9EDCCF16A083ED23BE70;
+	FParamMap0_SolveForcesAndVelocity SolveForcesAndVelocity;
+	FParamMap0_System System;
+	FParamMap0_Transient Transient;
+};
+
+#line 563 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FSimulationContext
+{
+
+	FParamMap0 MapSpawn;
+
+
+	FParamMap0 MapUpdate;
+
+	bool LocationEventWrite_Valid; 
+	FLocationEventDataSet LocationEventWrite;
+};
+
+#line 575 "/Engine/Generated/NiagaraEmitterInstance.ush"
+static float HackSpawnInterp = 1.0;
+void CalculateRandomRangeFloat_ScriptUsage4_Particle_Particle_RandomnessMode_NewEnumerator0_FixedRandomSeed_false_EvaluationType_NewEnumerator0_OverrideSeed_false_Func_(int In_Engine_System_RandomSeed, float In_FloatMin, float In_FloatMax, int In_Seed, int In_Particles_UniqueID, int In_Emitter_RandomSeed, int In_Engine_Emitter_InstanceSeed, out float Out_RandomFloat, out bool Out_IsDeterministic, inout FSimulationContext Context);
+void SimulationPosition_v1_1_Particle_Func_(float3 In_Engine_Owner_Position, out float3 Out_SimulationPosition, inout FSimulationContext Context);
+void InitializeParticle_Emitter_Func_(inout FSimulationContext Context);
+void DragVelocity_Particle_Func_(float3 In_Velocity, float3 In_AdvectionVelocity, float In_InverseMass, float In_Drag, float In_DeltaTime, bool In_IgnoreMass, out float3 Out_Output, inout FSimulationContext Context);
+void SolveForcesAndVelocity_Emitter_Func_(inout FSimulationContext Context);
+void ParticleState_Emitter_Func_(inout FSimulationContext Context);
+void ReturnExecIndex_Emitter_Func_(out int Out_ExecIndex, inout FSimulationContext Context);
+void GetFilteredBone_Emitter_SampleSkeletalMesh_SkeletalMesh(int In_BoneIndex, out int Out_Bone);
+void GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMesh(int In_Bone, out float3 Out_Position, out float4 Out_Rotation, out float3 Out_Scale, out float3 Out_Velocity);
+void TransformBase_Func_(int In_SourceSpace, int In_DestinationSpace, float4x4 In_LocalToWorldTransform, float4x4 In_WorldToLocalTransform, bool In_bLocalSpace, out bool Out_bUseOriginal, out float4x4 Out_OutTransform, out bool Out_LocalToWorld, inout FSimulationContext Context);
+void TransformVector_v1_1_Emitter_Localspace_false_Particle_Func_(float3 In_InVector, int In_SourceSpace, int In_DestinationSpace, bool In_ApplyScale, float4x4 In_Engine_Owner_SystemLocalToWorld, float4x4 In_Engine_Owner_SystemWorldToLocal, float4x4 In_Engine_Owner_SystemLocalToWorldNoScale, float4x4 In_Engine_Owner_SystemWorldToLocalNoScale, out float3 Out_OutVector, inout FSimulationContext Context);
+void SampleSkeletalMesh_Emitter_Func_(inout FSimulationContext Context);
+void SetVariables_06B04E0C42CA9EDCCF16A083ED23BE70_Emitter_Func_(inout FSimulationContext Context);
+void GenerateLocationEvent_Emitter_Func_(inout FSimulationContext Context);
+
+#line 592 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void CalculateRandomRangeFloat_ScriptUsage4_Particle_Particle_RandomnessMode_NewEnumerator0_FixedRandomSeed_false_EvaluationType_NewEnumerator0_OverrideSeed_false_Func_(int In_Engine_System_RandomSeed, float In_FloatMin, float In_FloatMax, int In_Seed, int In_Particles_UniqueID, int In_Emitter_RandomSeed, int In_Engine_Emitter_InstanceSeed, out float Out_RandomFloat, out bool Out_IsDeterministic, inout FSimulationContext Context)
+{
+	bool Constant26 = false;
+	float Result = In_FloatMax - In_FloatMin;
+	float Result1 = rand_float(Result);
+	float Result2 = In_FloatMin + Result1;
+	Out_RandomFloat = Result2;
+	Out_IsDeterministic = Constant26;
+}
+
+#line 604 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void SimulationPosition_v1_1_Particle_Func_(float3 In_Engine_Owner_Position, out float3 Out_SimulationPosition, inout FSimulationContext Context)
+{
+	Out_SimulationPosition = Context.MapSpawn.Engine.Owner.Position;
+}
+
+#line 611 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void InitializeParticle_Emitter_Func_(inout FSimulationContext Context)
+{
+	Context.MapSpawn.Particles.MaterialRandom = Context.MapSpawn.InitializeParticle.MaterialRandom;
+	Context.MapSpawn.Particles.Lifetime = Constants_Emitter_InitializeParticle_Lifetime;
+	Context.MapSpawn.Particles.Color = Constants_Emitter_InitializeParticle_Color;
+	float Constant28 = 1;
+	Context.MapSpawn.Particles.Mass = Constant28;
+	float2 Output1;
+	Output1.x = Constants_Emitter_InitializeParticle_UniformSpriteSize;
+	Output1.y = Constants_Emitter_InitializeParticle_UniformSpriteSize;
+	Context.MapSpawn.Particles.SpriteSize = Output1;
+	float3 Constant29 = float3(0,0,0);
+	float3 SimulationPosition_v1_1_Particle_Func_Output_SimulationPosition;
+	SimulationPosition_v1_1_Particle_Func_(Constant29, SimulationPosition_v1_1_Particle_Func_Output_SimulationPosition, Context);
+	float Constant30 = 0;
+	float3 Result3 = Constants_Emitter_InitializeParticle_PositionOffset * Constant30;
+	float3 Result4 = SimulationPosition_v1_1_Particle_Func_Output_SimulationPosition + Result3;
+	Context.MapSpawn.Particles.Position = Result4;
+	Context.MapSpawn.Local.InitializeParticle.InitRIbbonDistance = Context.MapSpawn.Particles.RibbonUVDistance;
+}
+
+#line 634 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void DragVelocity_Particle_Func_(float3 In_Velocity, float3 In_AdvectionVelocity, float In_InverseMass, float In_Drag, float In_DeltaTime, bool In_IgnoreMass, out float3 Out_Output, inout FSimulationContext Context)
+{
+	float3 Result11 = In_Velocity - In_AdvectionVelocity;
+	float Result12 = In_Drag * In_InverseMass;
+	float Constant38 = (0.0);
+	float NiagaraFloat_SelectResult = Constant38;
+	NiagaraFloat_SelectResult = In_Drag;
+	if(In_IgnoreMass == 0)
+	{ 
+	NiagaraFloat_SelectResult = Result12;
+	}
+	float Constant39 = 0;
+	float Result13 = max(NiagaraFloat_SelectResult, Constant39);
+	float Result14 = Result13 * In_DeltaTime;
+	float Constant40 = 1;
+	float Result15 = Result14 + Constant40;
+	float3 Result16 = Result11 / Result15;
+	float3 Result17 = Result16 + In_AdvectionVelocity;
+	Out_Output = Result17;
+}
+
+#line 657 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void SolveForcesAndVelocity_Emitter_Func_(inout FSimulationContext Context)
+{
+	Context.MapUpdate.Local.SolveForcesAndVelocity.DeltaTime = Context.MapUpdate.SolveForcesAndVelocity.DeltaTime;
+	float Constant36 = 1e-05;
+	float Result5 = max(Context.MapUpdate.Local.SolveForcesAndVelocity.DeltaTime, Constant36);
+	float Result6 = Reciprocal(Result5);
+	Context.MapUpdate.Local.SolveForcesAndVelocity.InverseDeltaTime = Result6;
+	Context.MapUpdate.Local.SolveForcesAndVelocity.PhysicsForce = Context.MapUpdate.SolveForcesAndVelocity.Force;
+	Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.IncomingPhysicsForce = Context.MapUpdate.SolveForcesAndVelocity.Force;
+	Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity = Context.MapUpdate.SolveForcesAndVelocity.Velocity;
+	Context.MapUpdate.Local.SolveForcesAndVelocity.Mass = Context.MapUpdate.SolveForcesAndVelocity.Mass;
+	Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Position = Context.MapUpdate.SolveForcesAndVelocity.Position;
+	Context.MapUpdate.Particles.Presolve.Velocity = Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity;
+	Context.MapUpdate.Particles.Presolve.Position = Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Position;
+	Context.MapUpdate.Particles.Presolve.PhysicsForce = Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.IncomingPhysicsForce;
+	float Constant37 = 1e-06;
+	float Result7 = max(Context.MapUpdate.Local.SolveForcesAndVelocity.Mass, Constant37);
+	float Result8 = Reciprocal(Result7);
+	float3 Result9 = Result8 * Context.MapUpdate.Local.SolveForcesAndVelocity.PhysicsForce;
+	Context.MapUpdate.Local.SolveForcesAndVelocity.PhysicsForce = Result9;
+	Context.MapUpdate.Local.SolveForcesAndVelocity.InverseMass = Result8;
+	float3 Result10 = Context.MapUpdate.Local.SolveForcesAndVelocity.PhysicsForce * Context.MapUpdate.Local.SolveForcesAndVelocity.DeltaTime + Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity;
+	Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity = Result10;
+	Context.MapUpdate.Local.SolveForcesAndVelocity.AdvectionVelocity = Context.MapUpdate.Transient.AdvectionVelocity;
+	Context.MapUpdate.Local.SolveForcesAndVelocity.PhysicsDrag = Context.MapUpdate.Transient.PhysicsDrag;
+	Context.MapUpdate.Local.SolveForcesAndVelocity.DragIgnoreMass = Context.MapUpdate.Transient.DragIgnoreMass;
+	float3 DragVelocity_Particle_Func_Output_Output;
+	DragVelocity_Particle_Func_(Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity, Context.MapUpdate.Local.SolveForcesAndVelocity.AdvectionVelocity, Context.MapUpdate.Local.SolveForcesAndVelocity.InverseMass, Context.MapUpdate.Local.SolveForcesAndVelocity.PhysicsDrag, Context.MapUpdate.Local.SolveForcesAndVelocity.DeltaTime, Context.MapUpdate.Local.SolveForcesAndVelocity.DragIgnoreMass, DragVelocity_Particle_Func_Output_Output, Context);
+	float3 Result18 = DragVelocity_Particle_Func_Output_Output - Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity;
+	Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity = DragVelocity_Particle_Func_Output_Output;
+	Context.MapUpdate.Local.SolveForcesAndVelocity.DragVelocity = Result18;
+	Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.IncomingPhysicsDrag = Context.MapUpdate.Local.SolveForcesAndVelocity.PhysicsDrag;
+	Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity = Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity;
+	Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity = Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity;
+	float3 Result19 = Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity * Context.MapUpdate.Local.SolveForcesAndVelocity.DeltaTime;
+	float3 Result20 = Result19 + Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Position;
+	Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Position = Result20;
+	float3 Position_IfResult;
+	float3 Velocity_IfResult;
+	if(Context.MapUpdate.SolveForcesAndVelocity.WritetoIntrinsicProperties)
+	{
+	Position_IfResult = Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Position;
+	Velocity_IfResult = Context.MapUpdate.OUTPUT_VAR.SolveForcesAndVelocity.Velocity;
+	}
+	else
+	{
+	Position_IfResult = Context.MapUpdate.Particles.Position;
+	Velocity_IfResult = Context.MapUpdate.Particles.Velocity;
+	}
+	Context.MapUpdate.Particles.Position = Position_IfResult;
+	Context.MapUpdate.Particles.Velocity = Velocity_IfResult;
+	float3 Constant41 = float3(0,0,0);
+	float Constant42 = 0;
+	float3 ForceVector_IfResult;
+	float Drag_IfResult;
+	if(Context.MapUpdate.SolveForcesAndVelocity.WritetoIntrinsicProperties)
+	{
+	ForceVector_IfResult = Constant41;
+	Drag_IfResult = Constant42;
+	}
+	else
+	{
+	ForceVector_IfResult = Context.MapUpdate.Transient.PhysicsForce;
+	Drag_IfResult = Context.MapUpdate.Transient.PhysicsDrag;
+	}
+	Context.MapUpdate.Transient.PhysicsForce = ForceVector_IfResult;
+	Context.MapUpdate.Transient.PhysicsDrag = Drag_IfResult;
+	float3 Result21 = Context.MapUpdate.Particles.Position - Context.MapUpdate.Particles.Previous.Position;
+	float Result22 = length(Result21);
+	float Constant43 = 0.3333;
+	float Result23 = Result22 * Constant43;
+	float Constant44 = 1e+08;
+	float Result24 = Modulo(Context.MapUpdate.Particles.DistanceTraveled, Constant44);
+	float Result25 = Result23 + Result24;
+	Context.MapUpdate.Particles.DistanceTraveled = Result25;
+}
+
+#line 736 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void ParticleState_Emitter_Func_(inout FSimulationContext Context)
+{
+	bool Result26 = NiagaraAll(Context.MapUpdate.Particles.Age <= Context.MapUpdate.Engine.DeltaTime);
+	Context.MapUpdate.OUTPUT_VAR.ParticleState.FirstFrame = Result26;
+	Context.MapUpdate.Transient.FirstFrame = Result26;
+	int Constant48 = 0;
+	bool Result27 = NiagaraAny(Context.MapUpdate.Emitter.ExecutionState != Constant48);
+	int Constant49 = 0;
+	bool Result28 = NiagaraAny(Context.MapUpdate.System.ExecutionState != Constant49);
+	bool Result29 = Result27 || Result28;
+	bool Result30 = Context.MapUpdate.ParticleState.LetInfinitelyLivedParticlesDieWhenEmitterDeactivates && Result29;
+	bool Result31 = !Result30;
+	bool Result32 = Context.MapUpdate.ParticleState.LoopParticlesLifetime && Result31;
+	float Result33 = Context.MapUpdate.Particles.Age + Context.MapUpdate.ParticleState.DeltaTime;
+	float Constant50 = 1e-05;
+	float Result34 = max(Context.MapUpdate.ParticleState.Lifetime, Constant50);
+	float Result35 = ModuloPrecise(Result33, Result34);
+	float Age_IfResult;
+	if(Result32)
+	{
+	Age_IfResult = Result35;
+	}
+	else
+	{
+	Age_IfResult = Result33;
+	}
+	float Constant51 = 0.0001;
+	float Result36 = Result34 - Constant51;
+	bool Result37 = NiagaraAll(Age_IfResult > Result36);
+	bool Result38 = Result37 && Result30;
+	bool Constant52 = false;
+	bool bool_IfResult;
+	if(Result38)
+	{
+	bool_IfResult = Constant52;
+	}
+	else
+	{
+	bool_IfResult = Context.MapUpdate.DataInstance.Alive;
+	}
+	float Result39 = Age_IfResult / Result34;
+	Context.MapUpdate.DataInstance.Alive = bool_IfResult;
+	Context.MapUpdate.Particles.Age = Age_IfResult;
+	Context.MapUpdate.Particles.NormalizedAge = Result39;
+	bool Constant53 = true;
+}
+
+#line 785 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void ReturnExecIndex_Emitter_Func_(out int Out_ExecIndex, inout FSimulationContext Context)
+{
+	Out_ExecIndex = Context.MapUpdate.Transient.testtestExecIndex;
+}
+
+#line 792 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void TransformBase_Func_(int In_SourceSpace, int In_DestinationSpace, float4x4 In_LocalToWorldTransform, float4x4 In_WorldToLocalTransform, bool In_bLocalSpace, out bool Out_bUseOriginal, out float4x4 Out_OutTransform, out bool Out_LocalToWorld, inout FSimulationContext Context)
+{
+	int Constant72 = 0;
+	bool Result41 = NiagaraAll(In_SourceSpace == Constant72);
+	int Constant73 = 0;
+	bool Result42 = NiagaraAll(In_DestinationSpace == Constant73);
+	bool Result43 = Result41 && Result42;
+	int Constant74 = 1;
+	bool Result44 = NiagaraAll(In_SourceSpace == Constant74);
+	int Constant75 = 1;
+	bool Result45 = NiagaraAll(In_DestinationSpace == Constant75);
+	bool Result46 = Result44 && Result45;
+	bool Result47 = Result43 || Result46;
+	int Constant76 = 2;
+	bool Result48 = NiagaraAll(In_SourceSpace == Constant76);
+	int Constant77 = 2;
+	bool Result49 = NiagaraAll(In_DestinationSpace == Constant77);
+	bool Result50 = Result48 && Result49;
+	bool Result51 = Result47 || Result50;
+	bool Result52 = Result41 && Result49;
+	bool Result53 = Result48 && Result42;
+	bool Result54 = Result52 || Result53;
+	bool Result55 = In_bLocalSpace && Result54;
+	bool Result56 = Result51 || Result55;
+	bool Result57 = !In_bLocalSpace;
+	bool Result58 = Result41 && Result45;
+	bool Result59 = Result44 && Result42;
+	bool Result60 = Result58 || Result59;
+	bool Result61 = Result57 && Result60;
+	bool Result62 = Result56 || Result61;
+	bool Result63 = In_bLocalSpace && Result58;
+	bool Result64 = Result48 && Result45;
+	bool Result65 = Result63 || Result64;
+	bool Result66 = Result57 && Result53;
+	bool Result67 = Result65 || Result66;
+	float4x4 Matrix_IfResult;
+	if(Result67)
+	{
+	Matrix_IfResult = In_LocalToWorldTransform;
+	}
+	else
+	{
+	Matrix_IfResult = In_WorldToLocalTransform;
+	}
+	Out_bUseOriginal = Result62;
+	Out_OutTransform = Matrix_IfResult;
+	Out_LocalToWorld = Result67;
+}
+
+#line 843 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void TransformVector_v1_1_Emitter_Localspace_false_Particle_Func_(float3 In_InVector, int In_SourceSpace, int In_DestinationSpace, bool In_ApplyScale, float4x4 In_Engine_Owner_SystemLocalToWorld, float4x4 In_Engine_Owner_SystemWorldToLocal, float4x4 In_Engine_Owner_SystemLocalToWorldNoScale, float4x4 In_Engine_Owner_SystemWorldToLocalNoScale, out float3 Out_OutVector, inout FSimulationContext Context)
+{
+	float4x4 Constant69 = (float4x4)0;
+	float4x4 LocalToWorld_SelectResult1 = Constant69;
+	float4x4 Constant70 = (float4x4)0;
+	float4x4 WorldToLocal_SelectResult1 = Constant70;
+	LocalToWorld_SelectResult1 = Context.MapUpdate.Engine.Owner.SystemLocalToWorld;
+	WorldToLocal_SelectResult1 = Context.MapUpdate.Engine.Owner.SystemWorldToLocal;
+	if(In_ApplyScale == 0)
+	{ 
+	LocalToWorld_SelectResult1 = Context.MapUpdate.Engine.Owner.SystemLocalToWorldNoScale;
+	WorldToLocal_SelectResult1 = Context.MapUpdate.Engine.Owner.SystemWorldToLocalNoScale;
+	}
+	bool Constant71 = false;
+	bool TransformBase_Func_Output_bUseOriginal;
+	float4x4 TransformBase_Func_Output_OutTransform;
+	bool TransformBase_Func_Output_LocalToWorld;
+	TransformBase_Func_(In_SourceSpace, In_DestinationSpace, LocalToWorld_SelectResult1, WorldToLocal_SelectResult1, Constant71, TransformBase_Func_Output_bUseOriginal, TransformBase_Func_Output_OutTransform, TransformBase_Func_Output_LocalToWorld, Context);
+	float3 Result68 = mul(float4(In_InVector,0.0),TransformBase_Func_Output_OutTransform).xyz;
+	float3 Constant78 = float3(0.0, 0.0, 0.0);
+	float3 Vector_SelectResult2 = Constant78;
+	Vector_SelectResult2 = In_InVector;
+	if(TransformBase_Func_Output_bUseOriginal == 0)
+	{ 
+	Vector_SelectResult2 = Result68;
+	}
+	Out_OutVector = Vector_SelectResult2;
+}
+
+#line 874 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void SampleSkeletalMesh_Emitter_Func_(inout FSimulationContext Context)
+{
+	int GetFilteredBone_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Bone;
+	GetFilteredBone_Emitter_SampleSkeletalMesh_SkeletalMesh(Context.MapUpdate.SampleSkeletalMesh.BoneASC47SocketIndex, GetFilteredBone_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Bone);
+	Context.MapUpdate.Local.SampleSkeletalMesh.SampledBoneIndex = GetFilteredBone_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Bone;
+	float3 GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Position;
+	float4 GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Rotation;
+	float3 GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Scale;
+	float3 GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Velocity;
+	GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMesh(Context.MapUpdate.Local.SampleSkeletalMesh.SampledBoneIndex, GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Position, GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Rotation, GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Scale, GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Velocity);
+	Context.MapUpdate.Local.SampleSkeletalMesh.SampledPosition = GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Position;
+	Context.MapUpdate.Local.SampleSkeletalMesh.SampledRotation = GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Rotation;
+	Context.MapUpdate.Local.SampleSkeletalMesh.SampledVelocity = GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMeshOutput_Velocity;
+	Context.MapUpdate.Particles.SampleSkeletalMesh.SampledRotation = Context.MapUpdate.Local.SampleSkeletalMesh.SampledRotation;
+	int Constant61 = 1;
+	int Constant62 = 0;
+	bool Constant63 = true;
+	float4x4 Constant64 = float4x4(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1);
+	float4x4 Constant65 = float4x4(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1);
+	float4x4 Constant66 = float4x4(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1);
+	float4x4 Constant67 = float4x4(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1);
+	bool Constant68 = false;
+	float3 TransformVector_v1_1_Emitter_Localspace_false_Particle_Func_Output_OutVector;
+	TransformVector_v1_1_Emitter_Localspace_false_Particle_Func_(Constants_Emitter_SampleSkeletalMesh_SampledPositionOffset, Constant61, Constant62, Constant63, Constant64, Constant65, Constant66, Constant67, TransformVector_v1_1_Emitter_Localspace_false_Particle_Func_Output_OutVector, Context);
+	float3 Result69 = Context.MapUpdate.Local.SampleSkeletalMesh.SampledPosition + TransformVector_v1_1_Emitter_Localspace_false_Particle_Func_Output_OutVector;
+	Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPositionWithoutOffset = Context.MapUpdate.Local.SampleSkeletalMesh.SampledPosition;
+	Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPosition = Result69;
+	Context.MapUpdate.Particles.SampleSkeletalMesh.SampledVelocity = Context.MapUpdate.Local.SampleSkeletalMesh.SampledVelocity;
+	Context.MapUpdate.OUTPUT_VAR.SampleSkeletalMesh.SampledBoneIndex = Context.MapUpdate.Local.SampleSkeletalMesh.SampledBoneIndex;
+}
+
+#line 907 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void SetVariables_06B04E0C42CA9EDCCF16A083ED23BE70_Emitter_Func_(inout FSimulationContext Context)
+{
+	Context.MapUpdate.Particles.Position = Context.MapUpdate.SetVariables_06B04E0C42CA9EDCCF16A083ED23BE70.Particles.Position;
+}
+
+#line 914 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void GenerateLocationEvent_Emitter_Func_(inout FSimulationContext Context)
+{
+	float Result70 = Context.MapUpdate.Engine.DeltaTime + Context.MapUpdate.Particles.GenerateLocationEvent.AccumulatedLocEventDT;
+	float Constant83 = 1;
+	float Constant84 = 1e-06;
+	float Result71 = max(Constants_Emitter_GenerateLocationEvent_EventSendRate, Constant84);
+	float Result72 = Constant83 / Result71;
+	bool Result73 = NiagaraAll(Result70 >= Result72);
+	float Constant85 = 0;
+	float Constant86 = (0.0);
+	float AccumulatedDT_SelectResult3 = Constant86;
+	AccumulatedDT_SelectResult3 = Constant85;
+	if(Result73 == 0)
+	{ 
+	AccumulatedDT_SelectResult3 = Result70;
+	}
+	float Constant87 = 0;
+	bool Result74 = NiagaraAll(Constants_Emitter_GenerateLocationEvent_EventSendRate > Constant87);
+	bool Result75 = Result73 && Context.MapUpdate.GenerateLocationEvent.EventGenerationEnabled && Result74;
+	Context.MapUpdate.Particles.GenerateLocationEvent.AccumulatedLocEventDT = AccumulatedDT_SelectResult3;
+	Context.MapUpdate.Local.GenerateLocationEvent.EventCondition = Result75;
+	Context.MapUpdate.Local.GenerateLocationEvent.EventCondition = Context.MapUpdate.Local.GenerateLocationEvent.EventCondition;
+	Context.MapUpdate.Local.GenerateLocationEvent.EventCondition = Context.MapUpdate.Local.GenerateLocationEvent.EventCondition;
+	Context.MapUpdate.OUTPUT_VAR.GenerateLocationEvent.EventWasSentThisFrame = Context.MapUpdate.Local.GenerateLocationEvent.EventCondition;
+	float3 Output11;
+	Output11.x = Context.MapUpdate.GenerateLocationEvent.VectortoSendasVector1ASC40PositionASC41.x;
+	Output11.y = Context.MapUpdate.GenerateLocationEvent.VectortoSendasVector1ASC40PositionASC41.y;
+	Output11.z = Context.MapUpdate.GenerateLocationEvent.VectortoSendasVector1ASC40PositionASC41.z;
+	Context.LocationEventWrite_Valid = Context.MapUpdate.Local.GenerateLocationEvent.EventCondition;
+	Context.LocationEventWrite.Vector1Position_29_53BB17B340F2F8CBDB00619E8ACA8A8F = Output11;
+	Context.LocationEventWrite.Vector2Velocity_30_6147F7B84D206402EBDD6CAEC72CB864 = Context.MapUpdate.GenerateLocationEvent.VectortoSendasVector2ASC40VelocityASC41;
+	Context.LocationEventWrite.Vector3Acceleration_31_1A2DB79F440455DC0602B5A462D5F37F = Context.MapUpdate.GenerateLocationEvent.VectortoSendasVector3ASC40AccelerationASC41;
+	Context.LocationEventWrite.NiagaraIDParticleID_37_5946869544681B0D2B8C48BAD6380BBC = Context.MapUpdate.GenerateLocationEvent.NiagaraIDtoSendasParticleIDASC40RibbonIDASC41;
+	Context.LocationEventWrite.Float1NormalizedAge_36_A3BB598447BD630CE9BE078C0CB3DCAC = Context.MapUpdate.GenerateLocationEvent.FloattoSendasFloat1ASC40NormalizedAgeASC41;
+	Context.LocationEventWrite.Float2RandomNormalizedFloat_33_2CCDADFB4F6411E0CA2698A4EB43EB80 = Context.MapUpdate.GenerateLocationEvent.FloattoSendasFloat2ASC40RandomNormalizedFloatASC41;
+	Context.LocationEventWrite.Float3DistanceTraveled_34_782CD1B14231731F4BDF6C972AA68747 = Context.MapUpdate.GenerateLocationEvent.FloattoSendasFloat3ASC40DistanceTraveledASC41;
+	Context.LocationEventWrite.LinearColorParticleColor_40_C9EA94794B2C8C8FCF8ABF80675AF2A6 = Context.MapUpdate.GenerateLocationEvent.ColortoSendasLinearColorASC40ParticleColor;
+	Context.LocationEventWrite.BooleanLocalSpace_46_A5DC22A74C34467D28031D80D664D64E = Context.MapUpdate.GenerateLocationEvent.BooleantoSendasLocalspaceFlag;
+}
+
+#line 961 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void InterpolateParameters(inout FSimulationContext Context)
+{
+
+	int InterpSpawn_Index = ExecIndex();
+	float InterpSpawn_SpawnTime = Emitter_InterpSpawnStartDt + (Emitter_SpawnInterval * InterpSpawn_Index);
+	float InterpSpawn_UpdateTime = Engine_DeltaTime - InterpSpawn_SpawnTime;
+	float InterpSpawn_InvSpawnTime = 1.0 / InterpSpawn_SpawnTime;
+	float InterpSpawn_InvUpdateTime = 1.0 / InterpSpawn_UpdateTime;
+	float SpawnInterp = InterpSpawn_SpawnTime * Engine_InverseDeltaTime ;
+	HackSpawnInterp = SpawnInterp;
+	Context.MapSpawn.Interpolation.InterpSpawn_Index = InterpSpawn_Index;
+	Context.MapSpawn.Interpolation.InterpSpawn_SpawnTime = InterpSpawn_SpawnTime;
+	Context.MapSpawn.Interpolation.InterpSpawn_UpdateTime = InterpSpawn_UpdateTime;
+	Context.MapSpawn.Interpolation.InterpSpawn_InvSpawnTime = InterpSpawn_InvSpawnTime;
+	Context.MapSpawn.Interpolation.InterpSpawn_InvUpdateTime = InterpSpawn_InvUpdateTime;
+	Context.MapSpawn.Interpolation.SpawnInterp = SpawnInterp;
+	Context.MapSpawn.Interpolation.Emitter_SpawnInterval = Emitter_SpawnInterval;
+	Context.MapSpawn.Interpolation.Emitter_InterpSpawnStartDt = Emitter_InterpSpawnStartDt;
+	Context.MapSpawn.Interpolation.Emitter_SpawnGroup = Emitter_SpawnGroup;
+	Context.MapSpawn.Engine.Time = lerp(PREV_Engine_Time, Engine_Time, SpawnInterp);
+	Context.MapSpawn.Engine.RealTime = lerp(PREV_Engine_RealTime, Engine_RealTime, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.TimeSinceRendered = lerp(PREV_Engine_Owner_TimeSinceRendered, Engine_Owner_TimeSinceRendered, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.LODDistance = lerp(PREV_Engine_Owner_LODDistance, Engine_Owner_LODDistance, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.LODDistanceFraction = lerp(PREV_Engine_Owner_LODDistanceFraction, Engine_Owner_LODDistanceFraction, SpawnInterp);
+	Context.MapSpawn.Engine.System.Age = lerp(PREV_Engine_System_Age, Engine_System_Age, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.Rotation = NiagaraQuatSLerp(PREV_Engine_Owner_Rotation, Engine_Owner_Rotation, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.Position = lerp(PREV_Engine_Owner_Position, Engine_Owner_Position, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.Velocity = lerp(PREV_Engine_Owner_Velocity, Engine_Owner_Velocity, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.SystemXAxis = lerp(PREV_Engine_Owner_SystemXAxis, Engine_Owner_SystemXAxis, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.SystemYAxis = lerp(PREV_Engine_Owner_SystemYAxis, Engine_Owner_SystemYAxis, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.SystemZAxis = lerp(PREV_Engine_Owner_SystemZAxis, Engine_Owner_SystemZAxis, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.Scale = lerp(PREV_Engine_Owner_Scale, Engine_Owner_Scale, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.LWCTile = lerp(PREV_Engine_Owner_LWCTile, Engine_Owner_LWCTile, SpawnInterp);
+	Context.MapSpawn.Emitter.Age = lerp(PREV_Emitter_Age, Emitter_Age, SpawnInterp);
+	Context.MapSpawn.Emitter.DistanceTraveled = lerp(PREV_Emitter_DistanceTraveled, Emitter_DistanceTraveled, SpawnInterp);
+	Context.MapUpdate.Engine.DeltaTime = InterpSpawn_UpdateTime;
+	Context.MapUpdate.Engine.InverseDeltaTime = InterpSpawn_InvUpdateTime;
+
+}
+
+#line 1002 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void HandlePreviousValuesForSpawn(inout FSimulationContext Context)
+{
+Context.MapSpawn.Particles.Previous.Position = Context.MapSpawn.Particles.Position;
+
+Context.MapSpawn.Particles.Previous.SpriteSize = Context.MapSpawn.Particles.SpriteSize;
+
+Context.MapSpawn.Particles.Previous.Velocity = Context.MapSpawn.Particles.Velocity;
+
+}
+
+#line 1013 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void ReadDataSets(inout FSimulationContext Context)
+{
+}
+
+#line 1017 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void WriteDataSets(inout FSimulationContext Context)
+{
+	{
+	int TmpWriteIndex;
+	bool bValid = Context.LocationEventWrite_Valid;
+	TmpWriteIndex = AcquireIndex(1, bValid);
+	if(TmpWriteIndex>=0)
+	{
+		RWWriteDataSetFloat1[0*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.Vector1Position_29_53BB17B340F2F8CBDB00619E8ACA8A8F.x;
+		RWWriteDataSetFloat1[1*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.Vector1Position_29_53BB17B340F2F8CBDB00619E8ACA8A8F.y;
+		RWWriteDataSetFloat1[2*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.Vector1Position_29_53BB17B340F2F8CBDB00619E8ACA8A8F.z;
+		RWWriteDataSetFloat1[3*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.Vector2Velocity_30_6147F7B84D206402EBDD6CAEC72CB864.x;
+		RWWriteDataSetFloat1[4*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.Vector2Velocity_30_6147F7B84D206402EBDD6CAEC72CB864.y;
+		RWWriteDataSetFloat1[5*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.Vector2Velocity_30_6147F7B84D206402EBDD6CAEC72CB864.z;
+		RWWriteDataSetFloat1[6*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.Vector3Acceleration_31_1A2DB79F440455DC0602B5A462D5F37F.x;
+		RWWriteDataSetFloat1[7*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.Vector3Acceleration_31_1A2DB79F440455DC0602B5A462D5F37F.y;
+		RWWriteDataSetFloat1[8*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.Vector3Acceleration_31_1A2DB79F440455DC0602B5A462D5F37F.z;
+		RWWriteDataSetInt1[0*DSComponentBufferSizeWriteInt1 + TmpWriteIndex] = Context.LocationEventWrite.NiagaraIDParticleID_37_5946869544681B0D2B8C48BAD6380BBC.Index;
+		RWWriteDataSetInt1[1*DSComponentBufferSizeWriteInt1 + TmpWriteIndex] = Context.LocationEventWrite.NiagaraIDParticleID_37_5946869544681B0D2B8C48BAD6380BBC.AcquireTag;
+		RWWriteDataSetFloat1[9*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.Float1NormalizedAge_36_A3BB598447BD630CE9BE078C0CB3DCAC;
+		RWWriteDataSetFloat1[10*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.Float2RandomNormalizedFloat_33_2CCDADFB4F6411E0CA2698A4EB43EB80;
+		RWWriteDataSetFloat1[11*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.Float3DistanceTraveled_34_782CD1B14231731F4BDF6C972AA68747;
+		RWWriteDataSetFloat1[12*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.LinearColorParticleColor_40_C9EA94794B2C8C8FCF8ABF80675AF2A6.r;
+		RWWriteDataSetFloat1[13*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.LinearColorParticleColor_40_C9EA94794B2C8C8FCF8ABF80675AF2A6.g;
+		RWWriteDataSetFloat1[14*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.LinearColorParticleColor_40_C9EA94794B2C8C8FCF8ABF80675AF2A6.b;
+		RWWriteDataSetFloat1[15*DSComponentBufferSizeWriteFloat1 + TmpWriteIndex] = Context.LocationEventWrite.LinearColorParticleColor_40_C9EA94794B2C8C8FCF8ABF80675AF2A6.a;
+		RWWriteDataSetBool1[2*DSComponentBufferSizeWriteBool1 + TmpWriteIndex] = Context.LocationEventWrite.BooleanLocalSpace_46_A5DC22A74C34467D28031D80D664D64E;
+	}
+	}
+}
+
+#line 1049 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void SimulateMapSpawn(inout FSimulationContext Context)
+{
+
+
+	float Constant = (0.0);
+	Context.MapSpawn.Particles.MaterialRandom = Constant;
+	float Constant1 = (0.0);
+	Context.MapSpawn.Particles.Lifetime = Constant1;
+	float4 Constant2 = float4(1.0, 1.0, 1.0, 1.0);
+	Context.MapSpawn.Particles.Color = Constant2;
+	float Constant3 = 1;
+	Context.MapSpawn.Particles.Mass = Constant3;
+	float2 Constant4 = float2(0.0, 0.0);
+	Context.MapSpawn.Particles.SpriteSize = Constant4;
+	float3 Constant5 = float3(0.0, 0.0, 0.0);
+	Context.MapSpawn.Particles.Position = Constant5;
+	float3 Constant6 = float3(0,0,0);
+	Context.MapSpawn.Particles.Velocity = Constant6;
+	float3 Constant7 = float3(0.0, 0.0, 0.0);
+	Context.MapSpawn.Particles.Presolve.Velocity = Constant7;
+	float3 Constant8 = float3(0.0, 0.0, 0.0);
+	Context.MapSpawn.Particles.Presolve.Position = Constant8;
+	float3 Constant9 = float3(0.0, 0.0, 0.0);
+	Context.MapSpawn.Particles.Presolve.PhysicsForce = Constant9;
+	float3 Constant10 = float3(0,0,0);
+	Context.MapSpawn.Particles.Previous.Position = Constant10;
+	float Constant11 = 0;
+	Context.MapSpawn.Particles.DistanceTraveled = Constant11;
+	float Constant12 = 0;
+	Context.MapSpawn.Particles.Age = Constant12;
+	float Constant13 = (0.0);
+	Context.MapSpawn.Particles.NormalizedAge = Constant13;
+	float4 Constant14 = float4(0.0, 0.0, 0.0, 1.0);
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledRotation = Constant14;
+	float3 Constant15 = float3(0.0, 0.0, 0.0);
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledPositionWithoutOffset = Constant15;
+	float3 Constant16 = float3(0.0, 0.0, 0.0);
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledPosition = Constant16;
+	float3 Constant17 = float3(0.0, 0.0, 0.0);
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledVelocity = Constant17;
+	float Constant18 = 0;
+	Context.MapSpawn.Particles.GenerateLocationEvent.AccumulatedLocEventDT = Constant18;
+
+	int Constant19 = (0);
+	float Constant20 = 0;
+	float Constant21 = 1;
+	int Constant22 = -1;
+	int Constant23 = 0;
+	int Constant24 = (0);
+	int Constant25 = (0);
+	float CalculateRandomRangeFloat_ScriptUsage4_Particle_Particle_RandomnessMode_NewEnumerator0_FixedRandomSeed_false_EvaluationType_NewEnumerator0_OverrideSeed_false_Func_Output_RandomFloat;
+	bool CalculateRandomRangeFloat_ScriptUsage4_Particle_Particle_RandomnessMode_NewEnumerator0_FixedRandomSeed_false_EvaluationType_NewEnumerator0_OverrideSeed_false_Func_Output_IsDeterministic;
+	CalculateRandomRangeFloat_ScriptUsage4_Particle_Particle_RandomnessMode_NewEnumerator0_FixedRandomSeed_false_EvaluationType_NewEnumerator0_OverrideSeed_false_Func_(Constant19, Constant20, Constant21, Constant22, Constant23, Constant24, Constant25, CalculateRandomRangeFloat_ScriptUsage4_Particle_Particle_RandomnessMode_NewEnumerator0_FixedRandomSeed_false_EvaluationType_NewEnumerator0_OverrideSeed_false_Func_Output_RandomFloat, CalculateRandomRangeFloat_ScriptUsage4_Particle_Particle_RandomnessMode_NewEnumerator0_FixedRandomSeed_false_EvaluationType_NewEnumerator0_OverrideSeed_false_Func_Output_IsDeterministic, Context);
+	Context.MapSpawn.InitializeParticle.MaterialRandom = CalculateRandomRangeFloat_ScriptUsage4_Particle_Particle_RandomnessMode_NewEnumerator0_FixedRandomSeed_false_EvaluationType_NewEnumerator0_OverrideSeed_false_Func_Output_RandomFloat;
+	int Constant27 = 0;
+	Context.MapSpawn.InitializeParticle.PositionOffsetCoordinateSpace = Constant27;
+	Context.MapSpawn.Particles.RibbonUVDistance = Context.MapSpawn.Emitter.DistanceTraveled;
+	EnterStatScope(1 );
+	InitializeParticle_Emitter_Func_(Context);
+	ExitStatScope();
+
+
+
+
+	HandlePreviousValuesForSpawn(Context);
+
+
+
+
+}
+
+#line 1121 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void SimulateMapUpdate(inout FSimulationContext Context)
+{
+
+	RandomCounterDeterministic = 0;
+	Context.MapUpdate.Transient.PhysicsDeltaTime = Context.MapUpdate.Engine.DeltaTime;
+	Context.MapUpdate.SolveForcesAndVelocity.DeltaTime = Context.MapUpdate.Transient.PhysicsDeltaTime;
+	float3 Constant31 = float3(0,0,0);
+	Context.MapUpdate.Transient.PhysicsForce = Constant31;
+	Context.MapUpdate.SolveForcesAndVelocity.Force = Context.MapUpdate.Transient.PhysicsForce;
+	Context.MapUpdate.SolveForcesAndVelocity.Velocity = Context.MapUpdate.Particles.Velocity;
+	Context.MapUpdate.SolveForcesAndVelocity.Mass = Context.MapUpdate.Particles.Mass;
+	Context.MapUpdate.SolveForcesAndVelocity.Position = Context.MapUpdate.Particles.Position;
+	float3 Constant32 = float3(0,0,0);
+	Context.MapUpdate.Transient.AdvectionVelocity = Constant32;
+	float Constant33 = 0;
+	Context.MapUpdate.Transient.PhysicsDrag = Constant33;
+	bool Constant34 = true;
+	Context.MapUpdate.Transient.DragIgnoreMass = Constant34;
+	bool Constant35 = true;
+	Context.MapUpdate.SolveForcesAndVelocity.WritetoIntrinsicProperties = Constant35;
+	EnterStatScope(2 );
+	SolveForcesAndVelocity_Emitter_Func_(Context);
+	ExitStatScope();
+	bool Constant45 = true;
+	Context.MapUpdate.DataInstance.Alive = Constant45;
+	bool Constant46 = false;
+	Context.MapUpdate.ParticleState.LoopParticlesLifetime = Constant46;
+	Context.MapUpdate.ParticleState.DeltaTime = Context.MapUpdate.Engine.DeltaTime;
+	Context.MapUpdate.ParticleState.Lifetime = Context.MapUpdate.Particles.Lifetime;
+	bool Constant47 = false;
+	Context.MapUpdate.ParticleState.LetInfinitelyLivedParticlesDieWhenEmitterDeactivates = Constant47;
+	EnterStatScope(3 );
+	ParticleState_Emitter_Func_(Context);
+	ExitStatScope();
+	int Result40 = ExecIndex();
+	Context.MapUpdate.Transient.testtestExecIndex = Result40;
+	int ReturnExecIndex_Emitter_Func_Output_ExecIndex;
+	ReturnExecIndex_Emitter_Func_(ReturnExecIndex_Emitter_Func_Output_ExecIndex, Context);
+	Context.MapUpdate.SampleSkeletalMesh.BoneASC47SocketIndex = ReturnExecIndex_Emitter_Func_Output_ExecIndex;
+	float3 Constant54 = float3(0,0,0);
+	Context.MapUpdate.Local.SampleSkeletalMesh.SampledNormal = Constant54;
+	float3 Constant55 = float3(0,0,0);
+	Context.MapUpdate.Local.SampleSkeletalMesh.SampledTangent = Constant55;
+	float3 Constant56 = float3(0,0,0);
+	Context.MapUpdate.Local.SampleSkeletalMesh.SampledBitangent = Constant56;
+	float2 Constant57 = float2(0,0);
+	Context.MapUpdate.Local.SampleSkeletalMesh.SampledMeshUV = Constant57;
+	float4 Constant58 = float4(1,1,1,1);
+	Context.MapUpdate.Local.SampleSkeletalMesh.SampledVertexColor = Constant58;
+	MeshTriCoordinate Constant59 = {-1,{0,0,0}};
+	Context.MapUpdate.Local.SampleSkeletalMesh.SampledMeshTriCoord = Constant59;
+	int Constant60 = 0;
+	Context.MapUpdate.Local.SampleSkeletalMesh.SampledMeshVertexID = Constant60;
+	EnterStatScope(4 );
+	SampleSkeletalMesh_Emitter_Func_(Context);
+	ExitStatScope();
+	Context.MapUpdate.SetVariables_06B04E0C42CA9EDCCF16A083ED23BE70.Particles.Position = Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPosition;
+	EnterStatScope(5 );
+	SetVariables_06B04E0C42CA9EDCCF16A083ED23BE70_Emitter_Func_(Context);
+	ExitStatScope();
+	bool Constant79 = true;
+	Context.MapUpdate.GenerateLocationEvent.EventGenerationEnabled = Constant79;
+	Context.MapUpdate.GenerateLocationEvent.DelayAgeAttribute = Context.MapUpdate.Particles.Age;
+	Context.MapUpdate.GenerateLocationEvent.VectortoSendasVector1ASC40PositionASC41 = Context.MapUpdate.Particles.Position;
+	Context.MapUpdate.GenerateLocationEvent.VectortoSendasVector2ASC40VelocityASC41 = Context.MapUpdate.Particles.Velocity;
+	float3 Constant80 = float3(0.0, 0.0, 0.0);
+	Context.MapUpdate.Transient.PhysicsAcceleration = Constant80;
+	Context.MapUpdate.GenerateLocationEvent.VectortoSendasVector3ASC40AccelerationASC41 = Context.MapUpdate.Transient.PhysicsAcceleration;
+	Context.MapUpdate.GenerateLocationEvent.NiagaraIDtoSendasParticleIDASC40RibbonIDASC41 = Context.MapUpdate.Particles.ID;
+	Context.MapUpdate.GenerateLocationEvent.FloattoSendasFloat1ASC40NormalizedAgeASC41 = Context.MapUpdate.Particles.NormalizedAge;
+	Context.MapUpdate.GenerateLocationEvent.FloattoSendasFloat2ASC40RandomNormalizedFloatASC41 = Context.MapUpdate.Particles.MaterialRandom;
+	Context.MapUpdate.GenerateLocationEvent.FloattoSendasFloat3ASC40DistanceTraveledASC41 = Context.MapUpdate.Particles.DistanceTraveled;
+	Context.MapUpdate.GenerateLocationEvent.ColortoSendasLinearColorASC40ParticleColor = Context.MapUpdate.Particles.Color;
+	bool Constant81 = false;
+	Context.MapUpdate.GenerateLocationEvent.BooleantoSendasLocalspaceFlag = Constant81;
+	bool Constant82 = false;
+	EnterStatScope(6 );
+	GenerateLocationEvent_Emitter_Func_(Context);
+	ExitStatScope();
+
+
+
+}
+
+#line 120 "/Plugin/FX/Niagara/Private/NiagaraDataInterfaceSkeletalMesh.ush"
+float4 DISKelMesh_QuatSlerp(float4 Quat1, float4 Quat2, float Slerp)
+{
+    const float RawCosom = dot(Quat1, Quat2);
+    const float Cosom = abs(RawCosom);
+
+    float Scale0, Scale1;
+    if (Cosom < 0.9999f)
+    {
+        const float Omega = acos(Cosom);
+        const float InvSin = 1.f / sin(Omega);
+        Scale0 = sin((1.f - Slerp) * Omega) * InvSin;
+        Scale1 = sin(Slerp * Omega) * InvSin;
+    }
+    else
+    {
+        Scale0 = 1.0f - Slerp;
+        Scale1 = Slerp;
+    }
+
+
+    Scale1 = RawCosom >= 0.0f ? Scale1 : -Scale1;
+
+    return (Scale0 * Quat1) + (Scale1 * Quat2);
+}
+
+#line 1218 "/Engine/Generated/NiagaraEmitterInstance.ush"
+Buffer<float4>	Emitter_SampleSkeletalMesh_SkeletalMesh_MeshCurrSamplingBonesBuffer;
+Buffer<float4>	Emitter_SampleSkeletalMesh_SkeletalMesh_MeshPrevSamplingBonesBuffer;
+
+#line 1237 "/Engine/Generated/NiagaraEmitterInstance.ush"
+int				Emitter_SampleSkeletalMesh_SkeletalMesh_NumBones;
+int				Emitter_SampleSkeletalMesh_SkeletalMesh_NumFilteredBones;
+
+#line 1242 "/Engine/Generated/NiagaraEmitterInstance.ush"
+Buffer<uint>	Emitter_SampleSkeletalMesh_SkeletalMesh_FilteredAndUnfilteredBones;
+int				Emitter_SampleSkeletalMesh_SkeletalMesh_NumFilteredSockets;
+
+#line 1251 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float4x4		Emitter_SampleSkeletalMesh_SkeletalMesh_InstanceTransform;
+float4x4		Emitter_SampleSkeletalMesh_SkeletalMesh_InstancePrevTransform;
+float4			Emitter_SampleSkeletalMesh_SkeletalMesh_InstanceRotation;
+float4			Emitter_SampleSkeletalMesh_SkeletalMesh_InstancePrevRotation;
+float			Emitter_SampleSkeletalMesh_SkeletalMesh_InstanceInvDeltaTime;
+
+#line 1950 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void GetSkinnedBoneCommon_Emitter_SampleSkeletalMesh_SkeletalMesh(in int Bone, in float Interp, in bool bWorldSpace, out float3 OutPosition, out float4 OutRotation, out float3 OutScale, out float3 OutVelocity)
+{
+
+	if ( Emitter_SampleSkeletalMesh_SkeletalMesh_NumBones + Emitter_SampleSkeletalMesh_SkeletalMesh_NumFilteredSockets == 0 )
+	{
+		OutPosition = float3(0.0f, 0.0f, 0.0f);
+		OutRotation = float4(0.0f, 0.0f, 0.0f, 1.0f);
+		OutScale	= float3(0.0f, 0.0f, 0.0f);
+		OutVelocity = float3(0.0f, 0.0f, 0.0f);
+		return;
+	}
+
+	Bone = clamp(Bone, 0, Emitter_SampleSkeletalMesh_SkeletalMesh_NumBones + Emitter_SampleSkeletalMesh_SkeletalMesh_NumFilteredSockets - 1);
+
+    float3 PrevPosition = Emitter_SampleSkeletalMesh_SkeletalMesh_MeshPrevSamplingBonesBuffer[Bone * 3].xyz;
+    float4 PrevRotation = Emitter_SampleSkeletalMesh_SkeletalMesh_MeshPrevSamplingBonesBuffer[Bone * 3 + 1];
+	float3 PrevScale	= Emitter_SampleSkeletalMesh_SkeletalMesh_MeshPrevSamplingBonesBuffer[Bone * 3 + 2].xyz;
+    float3 CurrPosition = Emitter_SampleSkeletalMesh_SkeletalMesh_MeshCurrSamplingBonesBuffer[Bone * 3].xyz;
+    float4 CurrRotation	= Emitter_SampleSkeletalMesh_SkeletalMesh_MeshCurrSamplingBonesBuffer[Bone * 3 + 1];
+	float3 CurrScale	= Emitter_SampleSkeletalMesh_SkeletalMesh_MeshCurrSamplingBonesBuffer[Bone * 3 + 2].xyz;
+
+    if (bWorldSpace)
+    {
+        PrevPosition = mul(float4(PrevPosition, 1), Emitter_SampleSkeletalMesh_SkeletalMesh_InstancePrevTransform).xyz;
+        CurrPosition = mul(float4(CurrPosition, 1), Emitter_SampleSkeletalMesh_SkeletalMesh_InstanceTransform).xyz;
+		PrevRotation = NiagaraGPU_QuatMul(Emitter_SampleSkeletalMesh_SkeletalMesh_InstancePrevRotation, PrevRotation);
+		CurrRotation = NiagaraGPU_QuatMul(Emitter_SampleSkeletalMesh_SkeletalMesh_InstanceRotation, CurrRotation);
+		PrevScale = mul(PrevScale, (float3x3)Emitter_SampleSkeletalMesh_SkeletalMesh_InstancePrevTransform);
+		CurrScale = mul(CurrScale, (float3x3)Emitter_SampleSkeletalMesh_SkeletalMesh_InstanceTransform);
+    }
+    CurrPosition = lerp(PrevPosition, CurrPosition, Interp);
+	CurrScale	 = lerp(PrevScale, CurrScale, Interp);
+
+    OutPosition = CurrPosition;
+    OutRotation = DISKelMesh_QuatSlerp(PrevRotation, CurrRotation, Interp);
+	OutScale	= CurrScale;
+    OutVelocity = (CurrPosition - PrevPosition) * Emitter_SampleSkeletalMesh_SkeletalMesh_InstanceInvDeltaTime;
+}
+
+#line 1999 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void GetSkinnedBoneDataWS_Emitter_SampleSkeletalMesh_SkeletalMesh(in int Bone, out float3 OutPosition, out float4 OutRotation, out float3 OutScale, out float3 OutVelocity)
+{
+    GetSkinnedBoneCommon_Emitter_SampleSkeletalMesh_SkeletalMesh(Bone, 1.0f, true, OutPosition, OutRotation, OutScale, OutVelocity);
+}
+
+#line 2206 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void GetFilteredBone_Emitter_SampleSkeletalMesh_SkeletalMesh(in int InBoneIndex, out int Bone)
+{
+    int BoneIndex = min(InBoneIndex, Emitter_SampleSkeletalMesh_SkeletalMesh_NumFilteredBones - 1);
+    Bone = Emitter_SampleSkeletalMesh_SkeletalMesh_NumFilteredBones > 0 ? (int)Emitter_SampleSkeletalMesh_SkeletalMesh_FilteredAndUnfilteredBones[BoneIndex] : -1;
+}
+
+#line 2431 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void InitConstants(inout FSimulationContext Context)
+{
+
+	Context.MapSpawn.Emitter.DistanceTraveled = Emitter_DistanceTraveled;
+	Context.MapSpawn.Engine.Owner.Position = Engine_Owner_Position;
+
+
+	Context.MapUpdate.Engine.DeltaTime = Engine_DeltaTime;
+	Context.MapUpdate.Engine.Owner.Position = Engine_Owner_Position;
+	Context.MapUpdate.Emitter.ExecutionState = Emitter_ExecutionState;
+	Context.MapUpdate.System.ExecutionState = System_ExecutionState;
+	Context.MapUpdate.Engine.Owner.SystemLocalToWorld = Engine_Owner_SystemLocalToWorld;
+	Context.MapUpdate.Engine.Owner.SystemWorldToLocal = Engine_Owner_SystemWorldToLocal;
+	Context.MapUpdate.Engine.Owner.SystemLocalToWorldNoScale = Engine_Owner_SystemLocalToWorldNoScale;
+	Context.MapUpdate.Engine.Owner.SystemWorldToLocalNoScale = Engine_Owner_SystemWorldToLocalNoScale;
+	Context.MapUpdate.Engine.Time = Engine_Time;
+	Context.MapUpdate.Engine.WorldDeltaTime = Engine_WorldDeltaTime;
+	Context.MapUpdate.Engine.InverseDeltaTime = Engine_InverseDeltaTime;
+	Context.MapUpdate.Engine.ExecutionCount = Engine_ExecutionCount;
+	Context.MapUpdate.Emitter.SpawnRate = Emitter_SpawnRate;
+	Context.MapUpdate.Engine.Emitter.TotalSpawnedParticles = Engine_Emitter_TotalSpawnedParticles;
+	Context.MapUpdate.Emitter.RandomSeed = Emitter_RandomSeed;
+	Context.MapUpdate.Engine.Emitter.InstanceSeed = Engine_Emitter_InstanceSeed;
+	Context.MapUpdate.Engine.System.RandomSeed = Engine_System_RandomSeed;
+
+}
+
+#line 2458 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void InitSpawnVariables(inout FSimulationContext Context)
+{
+
+	Context.MapSpawn.Particles.Age = 0.0f;
+	Context.MapSpawn.Particles.Color.r = 0.0f;
+	Context.MapSpawn.Particles.Color.g = 0.0f;
+	Context.MapSpawn.Particles.Color.b = 0.0f;
+	Context.MapSpawn.Particles.Color.a = 0.0f;
+	Context.MapSpawn.Particles.DistanceTraveled = 0.0f;
+	Context.MapSpawn.Particles.GenerateLocationEvent.AccumulatedLocEventDT = 0.0f;
+	Context.MapSpawn.Particles.ID.Index = 0;
+	Context.MapSpawn.Particles.ID.AcquireTag = 0;
+	Context.MapSpawn.Particles.Lifetime = 0.0f;
+	Context.MapSpawn.Particles.Mass = 0.0f;
+	Context.MapSpawn.Particles.MaterialRandom = 0.0f;
+	Context.MapSpawn.Particles.NormalizedAge = 0.0f;
+	Context.MapSpawn.Particles.Position.x = 0.0f;
+	Context.MapSpawn.Particles.Position.y = 0.0f;
+	Context.MapSpawn.Particles.Position.z = 0.0f;
+	Context.MapSpawn.Particles.Presolve.PhysicsForce.x = 0.0f;
+	Context.MapSpawn.Particles.Presolve.PhysicsForce.y = 0.0f;
+	Context.MapSpawn.Particles.Presolve.PhysicsForce.z = 0.0f;
+	Context.MapSpawn.Particles.Presolve.Position.x = 0.0f;
+	Context.MapSpawn.Particles.Presolve.Position.y = 0.0f;
+	Context.MapSpawn.Particles.Presolve.Position.z = 0.0f;
+	Context.MapSpawn.Particles.Presolve.Velocity.x = 0.0f;
+	Context.MapSpawn.Particles.Presolve.Velocity.y = 0.0f;
+	Context.MapSpawn.Particles.Presolve.Velocity.z = 0.0f;
+	Context.MapSpawn.Particles.Previous.Position.x = 0.0f;
+	Context.MapSpawn.Particles.Previous.Position.y = 0.0f;
+	Context.MapSpawn.Particles.Previous.Position.z = 0.0f;
+	Context.MapSpawn.Particles.Previous.SpriteSize.x = 0.0f;
+	Context.MapSpawn.Particles.Previous.SpriteSize.y = 0.0f;
+	Context.MapSpawn.Particles.Previous.Velocity.x = 0.0f;
+	Context.MapSpawn.Particles.Previous.Velocity.y = 0.0f;
+	Context.MapSpawn.Particles.Previous.Velocity.z = 0.0f;
+	Context.MapSpawn.Particles.RibbonUVDistance = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledPosition.x = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledPosition.y = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledPosition.z = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledPositionWithoutOffset.x = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledPositionWithoutOffset.y = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledPositionWithoutOffset.z = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledRotation.x = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledRotation.y = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledRotation.z = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledRotation.w = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledVelocity.x = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledVelocity.y = 0.0f;
+	Context.MapSpawn.Particles.SampleSkeletalMesh.SampledVelocity.z = 0.0f;
+	Context.MapSpawn.Particles.SpriteSize.x = 0.0f;
+	Context.MapSpawn.Particles.SpriteSize.y = 0.0f;
+	Context.MapSpawn.Particles.UniqueID = 0;
+	Context.MapSpawn.Particles.Velocity.x = 0.0f;
+	Context.MapSpawn.Particles.Velocity.y = 0.0f;
+	Context.MapSpawn.Particles.Velocity.z = 0.0f;
+
+	Context.MapSpawn.DataInstance.Alive=true;
+
+	int IDIndex, IDAcquireTag;
+	AcquireID(0, IDIndex, IDAcquireTag);
+	Context.MapSpawn.Particles.ID.Index = IDIndex;
+	Context.MapSpawn.Particles.ID.AcquireTag = IDAcquireTag;
+		Context.MapSpawn.Engine.Emitter.ID.ID = 1;
+
+}
+
+#line 2525 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void LoadUpdateVariables(inout FSimulationContext Context, int InstanceIdx)
+{
+
+		Context.MapUpdate.Array.Age = 0;
+		Context.MapUpdate.Particles.Age = InputDataFloat(0, 0, InstanceIdx);
+		Context.MapUpdate.Array.Color = 1;
+		Context.MapUpdate.Particles.Color.r = InputDataFloat(0, 1, InstanceIdx);
+		Context.MapUpdate.Particles.Color.g = InputDataFloat(0, 2, InstanceIdx);
+		Context.MapUpdate.Particles.Color.b = InputDataFloat(0, 3, InstanceIdx);
+		Context.MapUpdate.Particles.Color.a = InputDataFloat(0, 4, InstanceIdx);
+		Context.MapUpdate.Array.DistanceTraveled = 5;
+		Context.MapUpdate.Particles.DistanceTraveled = InputDataFloat(0, 5, InstanceIdx);
+		Context.MapUpdate.Array.GenerateLocationEvent.AccumulatedLocEventDT = 6;
+		Context.MapUpdate.Particles.GenerateLocationEvent.AccumulatedLocEventDT = InputDataFloat(0, 6, InstanceIdx);
+		Context.MapUpdate.Array.ID = 0;
+		Context.MapUpdate.Particles.ID.Index = InputDataInt(0, 0, InstanceIdx);
+		Context.MapUpdate.Particles.ID.AcquireTag = InputDataInt(0, 1, InstanceIdx);
+		Context.MapUpdate.Array.Lifetime = 7;
+		Context.MapUpdate.Particles.Lifetime = InputDataFloat(0, 7, InstanceIdx);
+		Context.MapUpdate.Array.Mass = 8;
+		Context.MapUpdate.Particles.Mass = InputDataFloat(0, 8, InstanceIdx);
+		Context.MapUpdate.Array.MaterialRandom = 9;
+		Context.MapUpdate.Particles.MaterialRandom = InputDataFloat(0, 9, InstanceIdx);
+		Context.MapUpdate.Array.NormalizedAge = 10;
+		Context.MapUpdate.Particles.NormalizedAge = InputDataFloat(0, 10, InstanceIdx);
+		Context.MapUpdate.Array.Position = 11;
+		Context.MapUpdate.Particles.Position.x = InputDataFloat(0, 11, InstanceIdx);
+		Context.MapUpdate.Particles.Position.y = InputDataFloat(0, 12, InstanceIdx);
+		Context.MapUpdate.Particles.Position.z = InputDataFloat(0, 13, InstanceIdx);
+		Context.MapUpdate.Array.Presolve.PhysicsForce = 14;
+		Context.MapUpdate.Particles.Presolve.PhysicsForce.x = InputDataFloat(0, 14, InstanceIdx);
+		Context.MapUpdate.Particles.Presolve.PhysicsForce.y = InputDataFloat(0, 15, InstanceIdx);
+		Context.MapUpdate.Particles.Presolve.PhysicsForce.z = InputDataFloat(0, 16, InstanceIdx);
+		Context.MapUpdate.Array.Presolve.Position = 17;
+		Context.MapUpdate.Particles.Presolve.Position.x = InputDataFloat(0, 17, InstanceIdx);
+		Context.MapUpdate.Particles.Presolve.Position.y = InputDataFloat(0, 18, InstanceIdx);
+		Context.MapUpdate.Particles.Presolve.Position.z = InputDataFloat(0, 19, InstanceIdx);
+		Context.MapUpdate.Array.Presolve.Velocity = 20;
+		Context.MapUpdate.Particles.Presolve.Velocity.x = InputDataFloat(0, 20, InstanceIdx);
+		Context.MapUpdate.Particles.Presolve.Velocity.y = InputDataFloat(0, 21, InstanceIdx);
+		Context.MapUpdate.Particles.Presolve.Velocity.z = InputDataFloat(0, 22, InstanceIdx);
+		Context.MapUpdate.Array.RibbonUVDistance = 31;
+		Context.MapUpdate.Particles.RibbonUVDistance = InputDataFloat(0, 31, InstanceIdx);
+		Context.MapUpdate.Array.SampleSkeletalMesh.SampledPosition = 32;
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPosition.x = InputDataFloat(0, 32, InstanceIdx);
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPosition.y = InputDataFloat(0, 33, InstanceIdx);
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPosition.z = InputDataFloat(0, 34, InstanceIdx);
+		Context.MapUpdate.Array.SampleSkeletalMesh.SampledPositionWithoutOffset = 35;
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPositionWithoutOffset.x = InputDataFloat(0, 35, InstanceIdx);
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPositionWithoutOffset.y = InputDataFloat(0, 36, InstanceIdx);
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPositionWithoutOffset.z = InputDataFloat(0, 37, InstanceIdx);
+		Context.MapUpdate.Array.SampleSkeletalMesh.SampledRotation = 38;
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledRotation.x = InputDataFloat(0, 38, InstanceIdx);
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledRotation.y = InputDataFloat(0, 39, InstanceIdx);
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledRotation.z = InputDataFloat(0, 40, InstanceIdx);
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledRotation.w = InputDataFloat(0, 41, InstanceIdx);
+		Context.MapUpdate.Array.SampleSkeletalMesh.SampledVelocity = 42;
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledVelocity.x = InputDataFloat(0, 42, InstanceIdx);
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledVelocity.y = InputDataFloat(0, 43, InstanceIdx);
+		Context.MapUpdate.Particles.SampleSkeletalMesh.SampledVelocity.z = InputDataFloat(0, 44, InstanceIdx);
+		Context.MapUpdate.Array.SpriteSize = 45;
+		Context.MapUpdate.Particles.SpriteSize.x = InputDataFloat(0, 45, InstanceIdx);
+		Context.MapUpdate.Particles.SpriteSize.y = InputDataFloat(0, 46, InstanceIdx);
+		Context.MapUpdate.Array.UniqueID = 2;
+		Context.MapUpdate.Particles.UniqueID = InputDataInt(0, 2, InstanceIdx);
+		Context.MapUpdate.Array.Velocity = 47;
+		Context.MapUpdate.Particles.Velocity.x = InputDataFloat(0, 47, InstanceIdx);
+		Context.MapUpdate.Particles.Velocity.y = InputDataFloat(0, 48, InstanceIdx);
+		Context.MapUpdate.Particles.Velocity.z = InputDataFloat(0, 49, InstanceIdx);
+		Context.MapUpdate.Particles.Previous.Position = 		Context.MapUpdate.Particles.Position;
+		Context.MapUpdate.Particles.Previous.SpriteSize = 		Context.MapUpdate.Particles.SpriteSize;
+		Context.MapUpdate.Particles.Previous.Velocity = 		Context.MapUpdate.Particles.Velocity;
+		Context.MapUpdate.DataInstance.Alive=true;
+			Context.MapUpdate.Engine.Emitter.ID.ID = 1;
+
+}
+
+#line 2602 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void ConditionalInterpolateParameters(inout FSimulationContext Context)
+{
+	InterpolateParameters(Context);
+}
+
+#line 2607 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void TransferAttributes(inout FSimulationContext Context)
+{
+
+		Context.MapUpdate.Particles = Context.MapSpawn.Particles;
+		Context.MapUpdate.DataInstance.Alive = true;
+		Context.MapUpdate.Particles.Previous.Position = Context.MapSpawn.Particles.Position;
+
+}
+
+#line 2616 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void StoreUpdateVariables(in FSimulationContext Context, bool bIsValidInstance)
+{
+
+		const bool bValid = bIsValidInstance && Context.MapUpdate.DataInstance.Alive;
+		const int WriteIndex = OutputIndex(0, true, bValid);
+		UpdateID(0, bValid ? Context.MapUpdate.Particles.ID.Index : -1, WriteIndex);
+		if (bValid)
+		{
+			OutputDataFloat(0, 0, WriteIndex, Context.MapUpdate.Particles.Age);
+			OutputDataFloat(0, 1, WriteIndex, Context.MapUpdate.Particles.Color.r);
+			OutputDataFloat(0, 2, WriteIndex, Context.MapUpdate.Particles.Color.g);
+			OutputDataFloat(0, 3, WriteIndex, Context.MapUpdate.Particles.Color.b);
+			OutputDataFloat(0, 4, WriteIndex, Context.MapUpdate.Particles.Color.a);
+			OutputDataFloat(0, 5, WriteIndex, Context.MapUpdate.Particles.DistanceTraveled);
+			OutputDataFloat(0, 6, WriteIndex, Context.MapUpdate.Particles.GenerateLocationEvent.AccumulatedLocEventDT);
+			OutputDataInt(0, 0, WriteIndex, Context.MapUpdate.Particles.ID.Index);
+			OutputDataInt(0, 1, WriteIndex, Context.MapUpdate.Particles.ID.AcquireTag);
+			OutputDataFloat(0, 7, WriteIndex, Context.MapUpdate.Particles.Lifetime);
+			OutputDataFloat(0, 8, WriteIndex, Context.MapUpdate.Particles.Mass);
+			OutputDataFloat(0, 9, WriteIndex, Context.MapUpdate.Particles.MaterialRandom);
+			OutputDataFloat(0, 10, WriteIndex, Context.MapUpdate.Particles.NormalizedAge);
+			OutputDataFloat(0, 11, WriteIndex, Context.MapUpdate.Particles.Position.x);
+			OutputDataFloat(0, 12, WriteIndex, Context.MapUpdate.Particles.Position.y);
+			OutputDataFloat(0, 13, WriteIndex, Context.MapUpdate.Particles.Position.z);
+			OutputDataFloat(0, 14, WriteIndex, Context.MapUpdate.Particles.Presolve.PhysicsForce.x);
+			OutputDataFloat(0, 15, WriteIndex, Context.MapUpdate.Particles.Presolve.PhysicsForce.y);
+			OutputDataFloat(0, 16, WriteIndex, Context.MapUpdate.Particles.Presolve.PhysicsForce.z);
+			OutputDataFloat(0, 17, WriteIndex, Context.MapUpdate.Particles.Presolve.Position.x);
+			OutputDataFloat(0, 18, WriteIndex, Context.MapUpdate.Particles.Presolve.Position.y);
+			OutputDataFloat(0, 19, WriteIndex, Context.MapUpdate.Particles.Presolve.Position.z);
+			OutputDataFloat(0, 20, WriteIndex, Context.MapUpdate.Particles.Presolve.Velocity.x);
+			OutputDataFloat(0, 21, WriteIndex, Context.MapUpdate.Particles.Presolve.Velocity.y);
+			OutputDataFloat(0, 22, WriteIndex, Context.MapUpdate.Particles.Presolve.Velocity.z);
+			OutputDataFloat(0, 23, WriteIndex, Context.MapUpdate.Particles.Previous.Position.x);
+			OutputDataFloat(0, 24, WriteIndex, Context.MapUpdate.Particles.Previous.Position.y);
+			OutputDataFloat(0, 25, WriteIndex, Context.MapUpdate.Particles.Previous.Position.z);
+			OutputDataFloat(0, 26, WriteIndex, Context.MapUpdate.Particles.Previous.SpriteSize.x);
+			OutputDataFloat(0, 27, WriteIndex, Context.MapUpdate.Particles.Previous.SpriteSize.y);
+			OutputDataFloat(0, 28, WriteIndex, Context.MapUpdate.Particles.Previous.Velocity.x);
+			OutputDataFloat(0, 29, WriteIndex, Context.MapUpdate.Particles.Previous.Velocity.y);
+			OutputDataFloat(0, 30, WriteIndex, Context.MapUpdate.Particles.Previous.Velocity.z);
+			OutputDataFloat(0, 31, WriteIndex, Context.MapUpdate.Particles.RibbonUVDistance);
+			OutputDataFloat(0, 32, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPosition.x);
+			OutputDataFloat(0, 33, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPosition.y);
+			OutputDataFloat(0, 34, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPosition.z);
+			OutputDataFloat(0, 35, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPositionWithoutOffset.x);
+			OutputDataFloat(0, 36, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPositionWithoutOffset.y);
+			OutputDataFloat(0, 37, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledPositionWithoutOffset.z);
+			OutputDataFloat(0, 38, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledRotation.x);
+			OutputDataFloat(0, 39, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledRotation.y);
+			OutputDataFloat(0, 40, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledRotation.z);
+			OutputDataFloat(0, 41, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledRotation.w);
+			OutputDataFloat(0, 42, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledVelocity.x);
+			OutputDataFloat(0, 43, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledVelocity.y);
+			OutputDataFloat(0, 44, WriteIndex, Context.MapUpdate.Particles.SampleSkeletalMesh.SampledVelocity.z);
+			OutputDataFloat(0, 45, WriteIndex, Context.MapUpdate.Particles.SpriteSize.x);
+			OutputDataFloat(0, 46, WriteIndex, Context.MapUpdate.Particles.SpriteSize.y);
+			OutputDataInt(0, 2, WriteIndex, Context.MapUpdate.Particles.UniqueID);
+			OutputDataFloat(0, 47, WriteIndex, Context.MapUpdate.Particles.Velocity.x);
+			OutputDataFloat(0, 48, WriteIndex, Context.MapUpdate.Particles.Velocity.y);
+			OutputDataFloat(0, 49, WriteIndex, Context.MapUpdate.Particles.Velocity.z);
+		}
+
+
+}
+
+#line 2692 "/Engine/Generated/NiagaraEmitterInstance.ush"
+[numthreads(64, 1, 1)]
+void SimulateMainComputeCS(
+	uint3 InDispatchThreadId	: SV_DispatchThreadID,
+	uint3 InGroupId				: SV_GroupID,
+	uint3 InGroupThreadId		: SV_GroupThreadID,
+	uint  InGroupIndex			: SV_GroupIndex)
+{
+	GDispatchThreadId	= InDispatchThreadId;
+	GGroupId			= InGroupId;
+	GGroupThreadId		= InGroupThreadId;
+	GGroupIndex			= InGroupIndex;
+	GEmitterTickCounter = EmitterTickCounter;
+	GRandomSeedOffset = 0;
+
+
+
+
+
+
+
+
+
+
+
+	GLinearThreadId		= GDispatchThreadId.x + (GDispatchThreadId.y * DispatchThreadIdToLinear.y);
+
+
+
+
+
+	bool bRunSpawnUpdateLogic = true;
+	if (ReadInstanceCountOffset == 0xFFFFFFFF)
+	{
+		GSpawnStartInstance = 0;
+	}
+	else
+	{
+		GSpawnStartInstance = RWInstanceCounts[ReadInstanceCountOffset];
+	}
+	const uint MaxInstances = GSpawnStartInstance + NumSpawnedInstances;
+	const bool bRunUpdateLogic = bRunSpawnUpdateLogic && GLinearThreadId < GSpawnStartInstance && GLinearThreadId < MaxInstances;
+	const bool bRunSpawnLogic = bRunSpawnUpdateLogic && GLinearThreadId >= GSpawnStartInstance && GLinearThreadId < MaxInstances;
+
+	const float RandomSeedInitialisation = NiagaraInternalNoise(GLinearThreadId * 16384, 0 * 8196, (bRunUpdateLogic ? 4096 : 0) + EmitterTickCounter);	
+
+	FSimulationContext Context = (FSimulationContext)0;
+	[branch]
+	if (bRunUpdateLogic)
+	{
+		SetupExecIndexForGPU();
+		InitConstants(Context);
+		LoadUpdateVariables(Context, GLinearThreadId);
+		ReadDataSets(Context);
+	}
+	else if (bRunSpawnLogic)
+	{
+		SetupExecIndexAndSpawnInfoForGPU();
+		InitConstants(Context);
+		InitSpawnVariables(Context);
+		ReadDataSets(Context);
+		Context.MapSpawn.Particles.UniqueID = Engine_Emitter_TotalSpawnedParticles + GLinearThreadId - GSpawnStartInstance;
+		ConditionalInterpolateParameters(Context);
+		SimulateMapSpawn(Context);
+		TransferAttributes(Context);
+	}
+
+	if (bRunUpdateLogic || bRunSpawnLogic)
+	{
+		SimulateMapUpdate(Context);
+		WriteDataSets(Context);
+	}
+
+	StoreUpdateVariables(Context, bRunUpdateLogic || bRunSpawnLogic);
+
+
+}
+
+/* BASE64_ENV
+BgAAABkAAABWSUVXX0hBU19USUxFT0ZGU0VUX0RBVEEAAAEAAAAeAAAAUFJJTUlUSVZFX0hBU19USUxFT0ZGU0VUX0RBVEEAAAEAAAARAAAASU5TVEFOQ0VEX1NURVJFTwAAAAAAAAsAAABNVUxUSV9WSUVXAAAAAAAAEgAAAE1PQklMRV9NVUxUSV9WSUVXAAAAAAAAFgAAAFBMQVRGT1JNX01BWF9TQU1QTEVSUwADIAAAAAAQEAACAAAAAAAAAJUAAAAJCQAACQkBAAkJAgAJCQMACREEAAkRBQAJCQYABAgAAAQIAQAEBQIABAUDAAQFBAAEBQUABAUGAAQFBwAEBQgABAUJAAQFCgAEBQsABAgMAAQIDQAECA4ABAgPAAQIEAAECBEABAgSAAQIEwAECBQABAUVAAQFFgAEBRcABAUYAAQIGQAECBoABAgbAAQFHAAECB0ABAUeAAQIHwAEBSAABAghAAQFIgAECCMABAUkAAQIJQAEBSYABAgnAAQIKAAECCkABAgqAAQIKwAECCwABAgtAAQFLgAECC8ABAYwAAQFMQAECDIABAUzAAQINAAEBTUABAg2AAQFNwAECDgABAU5AAQIOgAEBjsABAY8AAQFPQAECD4ABAU/AAQIQAAEBUEABAhCAAQFQwAECEQABAVFAAQFRgAEBUcABAVIAAQISQAEBUoABAhLAAQFTAAECE0ABAVOAAQITwAEBVAABAhRAAQIUgAEBVMABAhUAAQFVQAECFYABAZXAAQGWAAEBVkABAhaAAQFWwAECFwABAhdAAQGXgAEBl8ABAdgAAQGYQAEBWIAEwkAABMIAQATCQIAEwkDABMIBAATCQUAEwgGABMJBwATCQgAEwgJABMMCgATDAsAEwkMABMIDQATCQ4AEwkPABMJEAATCREAEwkSABMJEwATCRQAEwkVABMIFgATCBcAEwgYABMIGQATCBoAEwkAABMJAQATCQIAEwkDABMJBAATCQUAEwkGABMJBwATCQgAEwkJABMJCgATCQsAEwwMABMIDQAPCQAADwkBAAcAAAAYAAAARHJhd1JlY3RhbmdsZVBhcmFtZXRlcnMAAAAAAAAAAABipuK/AQAKAAAAU3Vic3RyYXRlAAAAAADdAAAAUwB1AGIAcwB0AHIAYQB0AGUAXwBNAGEAdABlAHIAaQBhAGwAVABlAHgAdAB1AHIAZQBBAHIAcgBhAHkAAABTAHUAYgBzAHQAcgBhAHQAZQBfAFQAbwBwAEwAYQB5AGUAcgBUAGUAeAB0AHUAcgBlAAAAUwB1AGIAcwB0AHIAYQB0AGUAXwBPAHAAYQBxAHUAZQBSAG8AdQBnAGgAUgBlAGYAcgBhAGMAdABpAG8AbgBUAGUAeAB0AHUAcgBlAAAAUwB1AGIAcwB0AHIAYQB0AGUAXwBDAGwAbwBzAHUAcgBlAE8AZgBmAHMAZQB0AFQAZQB4AHQAdQByAGUAAABTAHUAYgBzAHQAcgBhAHQAZQBfAEMAbABvAHMAdQByAGUAVABpAGwAZQBCAHUAZgBmAGUAcgAAAFMAdQBiAHMAdAByAGEAdABlAF8AQwBsAG8AcwB1AHIAZQBUAGkAbABlAEMAbwB1AG4AdABCAHUAZgBmAGUAcgAAAFMAdQBiAHMAdAByAGEAdABlAF8AUwBhAG0AcABsAGUAZABNAGEAdABlAHIAaQBhAGwAVABlAHgAdAB1AHIAZQAAAPa3psQBAAUAAABWaWV3AAUAAABWaWV3AA8NAABWAGkAZQB3AF8ATQBhAHQAZQByAGkAYQBsAFQAZQB4AHQAdQByAGUAQgBpAGwAaQBuAGUAYQByAFcAcgBhAHAAZQBkAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8ATQBhAHQAZQByAGkAYQBsAFQAZQB4AHQAdQByAGUAQgBpAGwAaQBuAGUAYQByAEMAbABhAG0AcABlAGQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABJAG4AZABpAHIAZQBjAHQAaQBvAG4AVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABCAHIAaQBjAGsAQQBtAGIAaQBlAG4AdABWAGUAYwB0AG8AcgAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABCAHIAaQBjAGsAUwBIAEMAbwBlAGYAZgBpAGMAaQBlAG4AdABzADAAAABWAGkAZQB3AF8AVgBvAGwAdQBtAGUAdAByAGkAYwBMAGkAZwBoAHQAbQBhAHAAQgByAGkAYwBrAFMASABDAG8AZQBmAGYAaQBjAGkAZQBuAHQAcwAxAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAEIAcgBpAGMAawBTAEgAQwBvAGUAZgBmAGkAYwBpAGUAbgB0AHMAMgAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABCAHIAaQBjAGsAUwBIAEMAbwBlAGYAZgBpAGMAaQBlAG4AdABzADMAAABWAGkAZQB3AF8AVgBvAGwAdQBtAGUAdAByAGkAYwBMAGkAZwBoAHQAbQBhAHAAQgByAGkAYwBrAFMASABDAG8AZQBmAGYAaQBjAGkAZQBuAHQAcwA0AAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAEIAcgBpAGMAawBTAEgAQwBvAGUAZgBmAGkAYwBpAGUAbgB0AHMANQAAAFYAaQBlAHcAXwBTAGsAeQBCAGUAbgB0AE4AbwByAG0AYQBsAEIAcgBpAGMAawBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAEQAaQByAGUAYwB0AGkAbwBuAGEAbABMAGkAZwBoAHQAUwBoAGEAZABvAHcAaQBuAGcAQgByAGkAYwBrAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AVgBvAGwAdQBtAGUAdAByAGkAYwBMAGkAZwBoAHQAbQBhAHAAQgByAGkAYwBrAEEAbQBiAGkAZQBuAHQAVgBlAGMAdABvAHIAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAMAAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAMQAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAMgAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAMwAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIANAAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIANQAAAFYAaQBlAHcAXwBTAGsAeQBCAGUAbgB0AE4AbwByAG0AYQBsAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBEAGkAcgBlAGMAdABpAG8AbgBhAGwATABpAGcAaAB0AFMAaABhAGQAbwB3AGkAbgBnAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBHAGwAbwBiAGEAbABEAGkAcwB0AGEAbgBjAGUARgBpAGUAbABkAFAAYQBnAGUAQQB0AGwAYQBzAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8ARwBsAG8AYgBhAGwARABpAHMAdABhAG4AYwBlAEYAaQBlAGwAZABDAG8AdgBlAHIAYQBnAGUAQQB0AGwAYQBzAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8ARwBsAG8AYgBhAGwARABpAHMAdABhAG4AYwBlAEYAaQBlAGwAZABQAGEAZwBlAFQAYQBiAGwAZQBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAEcAbABvAGIAYQBsAEQAaQBzAHQAYQBuAGMAZQBGAGkAZQBsAGQATQBpAHAAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBHAGwAbwBiAGEAbABEAGkAcwB0AGEAbgBjAGUARgBpAGUAbABkAFAAYQBnAGUAQQB0AGwAYQBzAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBHAGwAbwBiAGEAbABEAGkAcwB0AGEAbgBjAGUARgBpAGUAbABkAEMAbwB2AGUAcgBhAGcAZQBBAHQAbABhAHMAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEcAbABvAGIAYQBsAEQAaQBzAHQAYQBuAGMAZQBGAGkAZQBsAGQATQBpAHAAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEEAdABtAG8AcwBwAGgAZQByAGUAVAByAGEAbgBzAG0AaQB0AHQAYQBuAGMAZQBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAEEAdABtAG8AcwBwAGgAZQByAGUAVAByAGEAbgBzAG0AaQB0AHQAYQBuAGMAZQBUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AQQB0AG0AbwBzAHAAaABlAHIAZQBJAHIAcgBhAGQAaQBhAG4AYwBlAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AQQB0AG0AbwBzAHAAaABlAHIAZQBJAHIAcgBhAGQAaQBhAG4AYwBlAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBBAHQAbQBvAHMAcABoAGUAcgBlAEkAbgBzAGMAYQB0AHQAZQByAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AQQB0AG0AbwBzAHAAaABlAHIAZQBJAG4AcwBjAGEAdAB0AGUAcgBUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUABlAHIAbABpAG4ATgBvAGkAcwBlAEcAcgBhAGQAaQBlAG4AdABUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFAAZQByAGwAaQBuAE4AbwBpAHMAZQBHAHIAYQBkAGkAZQBuAHQAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFAAZQByAGwAaQBuAE4AbwBpAHMAZQAzAEQAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBQAGUAcgBsAGkAbgBOAG8AaQBzAGUAMwBEAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAG8AYgBvAGwAUwBhAG0AcABsAGkAbgBnAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AUwBoAGEAcgBlAGQAUABvAGkAbgB0AFcAcgBhAHAAcABlAGQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGgAYQByAGUAZABQAG8AaQBuAHQAQwBsAGEAbQBwAGUAZABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAaABhAHIAZQBkAEIAaQBsAGkAbgBlAGEAcgBXAHIAYQBwAHAAZQBkAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUwBoAGEAcgBlAGQAQgBpAGwAaQBuAGUAYQByAEMAbABhAG0AcABlAGQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGgAYQByAGUAZABCAGkAbABpAG4AZQBhAHIAQQBuAGkAcwBvAEMAbABhAG0AcABlAGQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGgAYQByAGUAZABUAHIAaQBsAGkAbgBlAGEAcgBXAHIAYQBwAHAAZQBkAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUwBoAGEAcgBlAGQAVAByAGkAbABpAG4AZQBhAHIAQwBsAGEAbQBwAGUAZABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFAAcgBlAEkAbgB0AGUAZwByAGEAdABlAGQAQgBSAEQARgAAAFYAaQBlAHcAXwBQAHIAZQBJAG4AdABlAGcAcgBhAHQAZQBkAEIAUgBEAEYAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGsAeQBJAHIAcgBhAGQAaQBhAG4AYwBlAEUAbgB2AGkAcgBvAG4AbQBlAG4AdABNAGEAcAAAAFYAaQBlAHcAXwBUAHIAYQBuAHMAbQBpAHQAdABhAG4AYwBlAEwAdQB0AFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AVAByAGEAbgBzAG0AaQB0AHQAYQBuAGMAZQBMAHUAdABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUwBrAHkAVgBpAGUAdwBMAHUAdABUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAawB5AFYAaQBlAHcATAB1AHQAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEMAYQBtAGUAcgBhAEEAZQByAGkAYQBsAFAAZQByAHMAcABlAGMAdABpAHYAZQBWAG8AbAB1AG0AZQAAAFYAaQBlAHcAXwBDAGEAbQBlAHIAYQBBAGUAcgBpAGEAbABQAGUAcgBzAHAAZQBjAHQAaQB2AGUAVgBvAGwAdQBtAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBDAGEAbQBlAHIAYQBBAGUAcgBpAGEAbABQAGUAcgBzAHAAZQBjAHQAaQB2AGUAVgBvAGwAdQBtAGUATQBpAGUATwBuAGwAeQAAAFYAaQBlAHcAXwBDAGEAbQBlAHIAYQBBAGUAcgBpAGEAbABQAGUAcgBzAHAAZQBjAHQAaQB2AGUAVgBvAGwAdQBtAGUATQBpAGUATwBuAGwAeQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEMAYQBtAGUAcgBhAEEAZQByAGkAYQBsAFAAZQByAHMAcABlAGMAdABpAHYAZQBWAG8AbAB1AG0AZQBSAGEAeQBPAG4AbAB5AAAAVgBpAGUAdwBfAEMAYQBtAGUAcgBhAEEAZQByAGkAYQBsAFAAZQByAHMAcABlAGMAdABpAHYAZQBWAG8AbAB1AG0AZQBSAGEAeQBPAG4AbAB5AFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8ARABpAHMAdABhAG4AdABTAGsAeQBMAGkAZwBoAHQATAB1AHQAQgB1AGYAZgBlAHIAUwBSAFYAAABWAGkAZQB3AF8ATQBvAGIAaQBsAGUARABpAHMAdABhAG4AdABTAGsAeQBMAGkAZwBoAHQATAB1AHQAQgB1AGYAZgBlAHIAUwBSAFYAAABWAGkAZQB3AF8ASABhAGkAcgBTAGMAYQB0AHQAZQByAGkAbgBnAEwAVQBUAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8ASABhAGkAcgBTAGMAYQB0AHQAZQByAGkAbgBnAEwAVQBUAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8ARwBHAFgATABUAEMATQBhAHQAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBHAEcAWABMAFQAQwBNAGEAdABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEcARwBYAEwAVABDAEEAbQBwAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8ARwBHAFgATABUAEMAQQBtAHAAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGgAZQBlAG4ATABUAEMAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBTAGgAZQBlAG4ATABUAEMAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGgAYQBkAGkAbgBnAEUAbgBlAHIAZwB5AEcARwBYAFMAcABlAGMAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBTAGgAYQBkAGkAbgBnAEUAbgBlAHIAZwB5AEcARwBYAEcAbABhAHMAcwBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaABhAGQAaQBuAGcARQBuAGUAcgBnAHkAQwBsAG8AdABoAFMAcABlAGMAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBTAGgAYQBkAGkAbgBnAEUAbgBlAHIAZwB5AEQAaQBmAGYAdQBzAGUAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBTAGgAYQBkAGkAbgBnAEUAbgBlAHIAZwB5AFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8ARwBsAGkAbgB0AFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8ARwBsAGkAbgB0AFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUwBpAG0AcABsAGUAVgBvAGwAdQBtAGUAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBTAGkAbQBwAGwAZQBWAG8AbAB1AG0AZQBUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUwBpAG0AcABsAGUAVgBvAGwAdQBtAGUARQBuAHYAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBTAGkAbQBwAGwAZQBWAG8AbAB1AG0AZQBFAG4AdgBUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUwBTAFAAcgBvAGYAaQBsAGUAcwBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAUwBQAHIAbwBmAGkAbABlAHMAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAFMAUAByAG8AZgBpAGwAZQBzAFQAcgBhAG4AcwBtAGkAcwBzAGkAbwBuAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUwBTAFAAcgBvAGYAaQBsAGUAcwBQAHIAZQBJAG4AdABlAGcAcgBhAHQAZQBkAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AUwBTAFAAcgBvAGYAaQBsAGUAcwBQAHIAZQBJAG4AdABlAGcAcgBhAHQAZQBkAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUwBwAGUAYwB1AGwAYQByAFAAcgBvAGYAaQBsAGUAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBTAHAAZQBjAHUAbABhAHIAUAByAG8AZgBpAGwAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFcAYQB0AGUAcgBJAG4AZABpAHIAZQBjAHQAaQBvAG4AAABWAGkAZQB3AF8AVwBhAHQAZQByAEQAYQB0AGEAAABWAGkAZQB3AF8AUgBlAGMAdABMAGkAZwBoAHQAQQB0AGwAYQBzAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AUgBlAGMAdABMAGkAZwBoAHQAQQB0AGwAYQBzAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8ASQBFAFMAQQB0AGwAYQBzAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8ASQBFAFMAQQB0AGwAYQBzAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8ATABhAG4AZABzAGMAYQBwAGUAVwBlAGkAZwBoAHQAbQBhAHAAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBMAGEAbgBkAHMAYwBhAHAAZQBJAG4AZABpAHIAZQBjAHQAaQBvAG4AAABWAGkAZQB3AF8ATABhAG4AZABzAGMAYQBwAGUAUABlAHIAQwBvAG0AcABvAG4AZQBuAHQARABhAHQAYQAAAFYAaQBlAHcAXwBWAFQARgBlAGUAZABiAGEAYwBrAEIAdQBmAGYAZQByAAAAVgBpAGUAdwBfAFAAaAB5AHMAaQBjAHMARgBpAGUAbABkAEMAbABpAHAAbQBhAHAAQgB1AGYAZgBlAHIAAABWAGkAZQB3AF8AQgBsAHUAZQBOAG8AaQBzAGUAUwBjAGEAbABhAHIAVABlAHgAdAB1AHIAZQAAAJzI3sEDAA4AAABJbnN0YW5jZWRWaWV3AA4AAABJbnN0YW5jZWRWaWV3AAAAAAABNcptAwAUAAAATW9iaWxlU2NlbmVUZXh0dXJlcwAOAAAAU2NlbmVUZXh0dXJlcwB0BAAATQBvAGIAaQBsAGUAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBfAFMAYwBlAG4AZQBDAG8AbABvAHIAVABlAHgAdAB1AHIAZQAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBTAGMAZQBuAGUAQwBvAGwAbwByAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBTAGMAZQBuAGUARABlAHAAdABoAFQAZQB4AHQAdQByAGUAAABNAG8AYgBpAGwAZQBTAGMAZQBuAGUAVABlAHgAdAB1AHIAZQBzAF8AUwBjAGUAbgBlAEQAZQBwAHQAaABUAGUAeAB0AHUAcgBlAEEAcgByAGEAeQAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBTAGMAZQBuAGUARABlAHAAdABoAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBTAGMAZQBuAGUAUABhAHIAdABpAGEAbABEAGUAcAB0AGgAVABlAHgAdAB1AHIAZQAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBTAGMAZQBuAGUAUABhAHIAdABpAGEAbABEAGUAcAB0AGgAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAATQBvAGIAaQBsAGUAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBfAEMAdQBzAHQAbwBtAEQAZQBwAHQAaABUAGUAeAB0AHUAcgBlAAAATQBvAGIAaQBsAGUAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBfAEMAdQBzAHQAbwBtAEQAZQBwAHQAaABUAGUAeAB0AHUAcgBlAEEAcgByAGEAeQAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBDAHUAcwB0AG8AbQBEAGUAcAB0AGgAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAATQBvAGIAaQBsAGUAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBfAEMAdQBzAHQAbwBtAFMAdABlAG4AYwBpAGwAVABlAHgAdAB1AHIAZQAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBDAHUAcwB0AG8AbQBTAHQAZQBuAGMAaQBsAFQAZQB4AHQAdQByAGUAQQByAHIAYQB5AAAATQBvAGIAaQBsAGUAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBfAFMAYwBlAG4AZQBWAGUAbABvAGMAaQB0AHkAVABlAHgAdAB1AHIAZQAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBTAGMAZQBuAGUAVgBlAGwAbwBjAGkAdAB5AFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBHAEIAdQBmAGYAZQByAEEAVABlAHgAdAB1AHIAZQAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBHAEIAdQBmAGYAZQByAEIAVABlAHgAdAB1AHIAZQAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBHAEIAdQBmAGYAZQByAEMAVABlAHgAdAB1AHIAZQAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBHAEIAdQBmAGYAZQByAEQAVABlAHgAdAB1AHIAZQAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBTAGMAZQBuAGUARABlAHAAdABoAEEAdQB4AFQAZQB4AHQAdQByAGUAAABNAG8AYgBpAGwAZQBTAGMAZQBuAGUAVABlAHgAdAB1AHIAZQBzAF8AUwBjAGUAbgBlAEQAZQBwAHQAaABBAHUAeABUAGUAeAB0AHUAcgBlAEEAcgByAGEAeQAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBMAG8AYwBhAGwATABpAGcAaAB0AFQAZQB4AHQAdQByAGUAQQAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBMAG8AYwBhAGwATABpAGcAaAB0AFQAZQB4AHQAdQByAGUAQgAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBHAEIAdQBmAGYAZQByAEEAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAATQBvAGIAaQBsAGUAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBfAEcAQgB1AGYAZgBlAHIAQgBUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABNAG8AYgBpAGwAZQBTAGMAZQBuAGUAVABlAHgAdAB1AHIAZQBzAF8ARwBCAHUAZgBmAGUAcgBDAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAE0AbwBiAGkAbABlAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAXwBHAEIAdQBmAGYAZQByAEQAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAATQBvAGIAaQBsAGUAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBfAFMAYwBlAG4AZQBEAGUAcAB0AGgAQQB1AHgAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAfKBqbAIAFAAAAFNjZW5lVGV4dHVyZXNTdHJ1Y3QADgAAAFNjZW5lVGV4dHVyZXMAGwIAAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAUwB0AHIAdQBjAHQAXwBTAGMAZQBuAGUAQwBvAGwAbwByAFQAZQB4AHQAdQByAGUAAABTAGMAZQBuAGUAVABlAHgAdAB1AHIAZQBzAFMAdAByAHUAYwB0AF8AUwBjAGUAbgBlAEQAZQBwAHQAaABUAGUAeAB0AHUAcgBlAAAAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBTAHQAcgB1AGMAdABfAFMAYwBlAG4AZQBQAGEAcgB0AGkAYQBsAEQAZQBwAHQAaABUAGUAeAB0AHUAcgBlAAAAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBTAHQAcgB1AGMAdABfAEcAQgB1AGYAZgBlAHIAQQBUAGUAeAB0AHUAcgBlAAAAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBTAHQAcgB1AGMAdABfAEcAQgB1AGYAZgBlAHIAQgBUAGUAeAB0AHUAcgBlAAAAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBTAHQAcgB1AGMAdABfAEcAQgB1AGYAZgBlAHIAQwBUAGUAeAB0AHUAcgBlAAAAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBTAHQAcgB1AGMAdABfAEcAQgB1AGYAZgBlAHIARABUAGUAeAB0AHUAcgBlAAAAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBTAHQAcgB1AGMAdABfAEcAQgB1AGYAZgBlAHIARQBUAGUAeAB0AHUAcgBlAAAAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBTAHQAcgB1AGMAdABfAEcAQgB1AGYAZgBlAHIARgBUAGUAeAB0AHUAcgBlAAAAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBTAHQAcgB1AGMAdABfAEcAQgB1AGYAZgBlAHIAVgBlAGwAbwBjAGkAdAB5AFQAZQB4AHQAdQByAGUAAABTAGMAZQBuAGUAVABlAHgAdAB1AHIAZQBzAFMAdAByAHUAYwB0AF8AUwBjAHIAZQBlAG4AUwBwAGEAYwBlAEEATwBUAGUAeAB0AHUAcgBlAAAAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBTAHQAcgB1AGMAdABfAEMAdQBzAHQAbwBtAEQAZQBwAHQAaABUAGUAeAB0AHUAcgBlAAAAUwBjAGUAbgBlAFQAZQB4AHQAdQByAGUAcwBTAHQAcgB1AGMAdABfAEMAdQBzAHQAbwBtAFMAdABlAG4AYwBpAGwAVABlAHgAdAB1AHIAZQAAAFMAYwBlAG4AZQBUAGUAeAB0AHUAcgBlAHMAUwB0AHIAdQBjAHQAXwBQAG8AaQBuAHQAQwBsAGEAbQBwAFMAYQBtAHAAbABlAHIAAADL37euAgAQAAAAU3Vic3RyYXRlUHVibGljAAAAAABFAAAAUwB1AGIAcwB0AHIAYQB0AGUAUAB1AGIAbABpAGMAXwBUAG8AcABMAGEAeQBlAHIAVABlAHgAdAB1AHIAZQAAAFMAdQBiAHMAdAByAGEAdABlAFAAdQBiAGwAaQBjAF8ATQBhAHQAZQByAGkAYQBsAFQAZQB4AHQAdQByAGUAQQByAHIAYQB5AAAA3CeEdgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+BASE64_ENV */
+/* DIRECT COMPILE
+-directcompile -format=PCD3D_SM6 -entry="SimulateMainComputeCS" -shaderPlatformName=PCD3D_SM6 -supportedHardwareMask=0 -cs C:/Users/34670/Documents/GitHub/MechaManZero/mmz/Saved/ShaderDebugInfo/PCD3D_SM6/NS_Ribbon/CompletelyEmpty/ParticleGPUComputeScript/FNiagaraShader/0/NiagaraEmitterInstanceShader.usf -nocrashreports
+DIRECT COMPILE */
