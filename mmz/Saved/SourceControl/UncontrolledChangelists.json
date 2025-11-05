@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/mydata/Repositories/MechaManZero/mmz/Content/MAP/Blockout.umap",
+				"D:/mydata/Repositories/MechaManZero/mmz/Content/BP_Battery.uasset",
 				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset",
 				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial.uasset",
 				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/VREditor/Devices/Vive/ViveControllerMaterial.uasset",
