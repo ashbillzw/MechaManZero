@@ -85,3 +85,8 @@ mmz/Saved/Cooked/Windows/mmz/Metadata/ShaderLibrarySource/ShaderArchive-mmz-PCD3
 mmz/Saved/Cooked/Windows/mmz/Metadata/ShaderLibrarySource/ShaderArchive-mmz-PCD3D_SM6-PCD3D_SM6.ushaderbytecode
 mmz/Saved/Cooked/Windows/mmz/Metadata/ShaderLibrarySource/ShaderArchive-Global-PCD3D_SM5-PCD3D_SM5.ushaderbytecode
 mmz/Saved/Cooked/Windows/mmz/Metadata/ShaderLibrarySource/ShaderArchive-Global-PCD3D_SM6-PCD3D_SM6.ushaderbytecode
+mmz/Saved/StagedBuilds/Windows/mmz/Content/Paks/mmz-Windows.ucas
+mmz/Binaries/Win64/mmz.pdb
+mmz/Intermediate/Build/BuildRules/mmzModuleRules.pdb
+mmz/Saved/StagedBuilds/Windows/mmz/Binaries/Win64/mmz.pdb
+mmz/Saved/StagedBuilds/Windows/mmz/Content/Paks/global.ucas
