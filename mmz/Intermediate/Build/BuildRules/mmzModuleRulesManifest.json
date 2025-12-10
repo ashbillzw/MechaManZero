@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"D:\\mydata\\Repositories\\MechaManZero\\mmz\\Intermediate\\Source\\mmz.Build.cs",
+		"D:\\mydata\\Repositories\\MechaManZero\\mmz\\Intermediate\\Source\\mmz.Target.cs",
+		"D:\\mydata\\Repositories\\MechaManZero\\mmz\\Intermediate\\Source\\mmzClient.Target.cs",
+		"D:\\mydata\\Repositories\\MechaManZero\\mmz\\Intermediate\\Source\\mmzEditor.Target.cs",
+		"D:\\mydata\\Repositories\\MechaManZero\\mmz\\Intermediate\\Source\\mmzServer.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}

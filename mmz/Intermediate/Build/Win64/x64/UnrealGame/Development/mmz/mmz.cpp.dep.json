@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\mydata\\repositories\\mechamanzero\\mmz\\intermediate\\source\\mmz.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\mydata\\repositories\\mechamanzero\\mmz\\intermediate\\build\\win64\\x64\\mmz\\development\\core\\sharedpch.core.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\mydata\\repositories\\mechamanzero\\mmz\\intermediate\\build\\win64\\x64\\unrealgame\\development\\mmz\\definitions.mmz.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
