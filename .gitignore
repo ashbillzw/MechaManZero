@@ -73,3 +73,15 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+mmz/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderCode-mmz-PCD3D_SM5-PCD3D_SM5.ushaderbytecode
+mmz/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderCode-mmz-PCD3D_SM6-PCD3D_SM6.ushaderbytecode
+mmz/Saved/Cooked/Windows/mmz/Content/ShaderArchive-mmz-PCD3D_SM5-PCD3D_SM5.ushaderbytecode
+mmz/Saved/Cooked/Windows/mmz/Content/ShaderArchive-mmz-PCD3D_SM6-PCD3D_SM6.ushaderbytecode
+mmz/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderCode-Global-PCD3D_SM5-PCD3D_SM5.ushaderbytecode
+mmz/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderCode-Global-PCD3D_SM6-PCD3D_SM6.ushaderbytecode
+mmz/Saved/Cooked/Windows/mmz/Content/ShaderArchive-Global-PCD3D_SM5-PCD3D_SM5.ushaderbytecode
+mmz/Saved/Cooked/Windows/mmz/Content/ShaderArchive-Global-PCD3D_SM6-PCD3D_SM6.ushaderbytecode
+mmz/Saved/Cooked/Windows/mmz/Metadata/ShaderLibrarySource/ShaderArchive-mmz-PCD3D_SM5-PCD3D_SM5.ushaderbytecode
+mmz/Saved/Cooked/Windows/mmz/Metadata/ShaderLibrarySource/ShaderArchive-mmz-PCD3D_SM6-PCD3D_SM6.ushaderbytecode
+mmz/Saved/Cooked/Windows/mmz/Metadata/ShaderLibrarySource/ShaderArchive-Global-PCD3D_SM5-PCD3D_SM5.ushaderbytecode
+mmz/Saved/Cooked/Windows/mmz/Metadata/ShaderLibrarySource/ShaderArchive-Global-PCD3D_SM6-PCD3D_SM6.ushaderbytecode
