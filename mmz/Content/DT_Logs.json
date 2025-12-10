@@ -1,0 +1,82 @@
+[
+	{
+		"Name": "1",
+		"RowName": 1,
+		"LogID": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"1_LogID\", \"LOG-109-01\")",
+		"Title": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"1_Title\", \"TEST TEST\")",
+		"Date": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"1_Date\", \"09/13/3043\")",
+		"BodyText": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"1_BodyText\", \"Anyone there? \\\"Don\\'t leave me...\\\" \\\"No, no, no!\\\" \\\"Leave him, there is no room, it is going to?\\\"\")"
+	},
+	{
+		"Name": "2",
+		"RowName": 2,
+		"LogID": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"2_LogID\", \"LOG-109-02\")",
+		"Title": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"2_Title\", \"Log 2\")",
+		"Date": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"2_Date\", \"09/13/3043\")",
+		"BodyText": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"2_BodyText\", \"Hey, you. You are finally awake.\")"
+	},
+	{
+		"Name": "3",
+		"RowName": 3,
+		"LogID": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"3_LogID\", \"LOG-109-03\")",
+		"Title": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"3_Title\", \"Log 3\")",
+		"Date": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"3_Date\", \"09/13/3043\")",
+		"BodyText": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"3_BodyText\", \"Press F to pay respects\")"
+	},
+	{
+		"Name": "4",
+		"RowName": 4,
+		"LogID": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"4_LogID\", \"LOG-110-01\")",
+		"Title": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"4_Title\", \"Log 4\")",
+		"Date": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"4_Date\", \"09/15/3043\")",
+		"BodyText": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"4_BodyText\", \"Another two days passed\")"
+	},
+	{
+		"Name": "5",
+		"RowName": 5,
+		"LogID": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"5_LogID\", \"LOG-111-01\")",
+		"Title": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"5_Title\", \"Log 5\")",
+		"Date": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"5_Date\", \"09/16/3043\")",
+		"BodyText": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"5_BodyText\", \"Emmm, something went wrong?\")"
+	},
+	{
+		"Name": "6",
+		"RowName": 6,
+		"LogID": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"6_LogID\", \"LOG-###-###\")",
+		"Title": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"6_Title\", \"Log ?\")",
+		"Date": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"6_Date\", \"XX/XX/XXXX\")",
+		"BodyText": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"6_BodyText\", \"####, it killing us! Help! ### are killing us!\")"
+	},
+	{
+		"Name": "7",
+		"RowName": 7,
+		"LogID": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"7_LogID\", \"!@#&*@!)#\")",
+		"Title": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"7_Title\", \"oas!djca)zs\")",
+		"Date": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"7_Date\", \"00/00/0000\")",
+		"BodyText": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"7_BodyText\", \"$#%!@*()$%\")"
+	},
+	{
+		"Name": "8",
+		"RowName": 8,
+		"LogID": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"8_LogID\", \"ERROR\")",
+		"Title": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"8_Title\", \"ERROR\")",
+		"Date": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"8_Date\", \"ERROR\")",
+		"BodyText": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"8_BodyText\", \"ERROR\")"
+	},
+	{
+		"Name": "9",
+		"RowName": 9,
+		"LogID": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"9_LogID\", \"XXXX\")",
+		"Title": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"9_Title\", \"XXXX\")",
+		"Date": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"9_Date\", \"XXXX\")",
+		"BodyText": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"9_BodyText\", \"XXXX\")"
+	},
+	{
+		"Name": "10",
+		"RowName": 10,
+		"LogID": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"10_LogID\", \"ASD\")",
+		"Title": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"10_Title\", \"ASD\")",
+		"Date": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"10_Date\", \"ASD\")",
+		"BodyText": "NSLOCTEXT(\"DT_Logs [FD5B96F58B5BD14DA9B0650CEF6F40C7]\", \"10_BodyText\", \"ASD\")"
+	}
+]
